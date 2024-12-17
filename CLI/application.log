@@ -1,0 +1,288 @@
+Dec 12, 2024 9:30:19 AM Configuration saveConfigToTextFile
+INFO: Configuration saved to text file: configurationtext_file
+Dec 12, 2024 9:30:19 AM TicketSystem main
+INFO: CONFIGURATION FILE SAVED TO config.json
+Dec 12, 2024 9:30:19 AM TicketPool addTickets
+INFO: ADDED TICKETS :-  10 TICKETS. NOW POOL SIZE :- 110
+Dec 12, 2024 9:30:19 AM Vendor run
+INFO: Vendor 1 added 10 tickets.
+Dec 12, 2024 9:30:19 AM TicketSystem runSystem
+INFO: TICKET SYSTEM IS RUNNING
+Dec 12, 2024 9:30:19 AM TicketPool removeTicket
+INFO: TICKET REMOVED :- Ticket [ticketID=1, ticketName=generic ticket, ticketPrice=1000, ticketQuantity=1]. Available number of tickets :- 109
+Dec 12, 2024 9:30:19 AM TicketPool removeTicket
+INFO: TICKET REMOVED :- Ticket [ticketID=2, ticketName=generic ticket, ticketPrice=1000, ticketQuantity=1]. Available number of tickets :- 108
+Dec 12, 2024 9:30:19 AM TicketPool removeTicket
+INFO: TICKET REMOVED :- Ticket [ticketID=3, ticketName=generic ticket, ticketPrice=1000, ticketQuantity=1]. Available number of tickets :- 107
+Dec 12, 2024 9:30:19 AM TicketPool removeTicket
+INFO: TICKET REMOVED :- Ticket [ticketID=4, ticketName=generic ticket, ticketPrice=1000, ticketQuantity=1]. Available number of tickets :- 106
+Dec 12, 2024 9:30:19 AM TicketPool removeTicket
+INFO: TICKET REMOVED :- Ticket [ticketID=5, ticketName=generic ticket, ticketPrice=1000, ticketQuantity=1]. Available number of tickets :- 105
+Dec 12, 2024 9:30:19 AM TicketPool addTickets
+INFO: ADDED TICKETS :-  10 TICKETS. NOW POOL SIZE :- 115
+Dec 12, 2024 9:30:19 AM Customer run
+INFO: Customer 1 buy a ticket
+Dec 12, 2024 9:30:19 AM Vendor run
+INFO: Vendor 3 added 10 tickets.
+Dec 12, 2024 9:30:19 AM TicketPool addTickets
+INFO: ADDED TICKETS :-  10 TICKETS. NOW POOL SIZE :- 125
+Dec 12, 2024 9:30:19 AM Vendor run
+INFO: Vendor 4 added 10 tickets.
+Dec 12, 2024 9:30:19 AM TicketPool addTickets
+INFO: ADDED TICKETS :-  10 TICKETS. NOW POOL SIZE :- 135
+Dec 12, 2024 9:30:19 AM Vendor run
+INFO: Vendor 5 added 10 tickets.
+Dec 12, 2024 9:30:19 AM TicketPool addTickets
+INFO: ADDED TICKETS :-  10 TICKETS. NOW POOL SIZE :- 145
+Dec 12, 2024 9:30:19 AM Vendor run
+INFO: Vendor 2 added 10 tickets.
+Dec 12, 2024 9:30:19 AM TicketPool removeTicket
+INFO: TICKET REMOVED :- Ticket [ticketID=6, ticketName=generic ticket, ticketPrice=1000, ticketQuantity=1]. Available number of tickets :- 144
+Dec 12, 2024 9:30:19 AM TicketPool removeTicket
+INFO: TICKET REMOVED :- Ticket [ticketID=7, ticketName=generic ticket, ticketPrice=1000, ticketQuantity=1]. Available number of tickets :- 143
+Dec 12, 2024 9:30:19 AM TicketPool removeTicket
+INFO: TICKET REMOVED :- Ticket [ticketID=8, ticketName=generic ticket, ticketPrice=1000, ticketQuantity=1]. Available number of tickets :- 142
+Dec 12, 2024 9:30:19 AM TicketPool removeTicket
+INFO: TICKET REMOVED :- Ticket [ticketID=9, ticketName=generic ticket, ticketPrice=1000, ticketQuantity=1]. Available number of tickets :- 141
+Dec 12, 2024 9:30:19 AM TicketPool removeTicket
+INFO: TICKET REMOVED :- Ticket [ticketID=10, ticketName=generic ticket, ticketPrice=1000, ticketQuantity=1]. Available number of tickets :- 140
+Dec 12, 2024 9:30:19 AM Customer run
+INFO: Customer 3 buy a ticket
+Dec 12, 2024 9:30:19 AM TicketPool removeTicket
+INFO: TICKET REMOVED :- Ticket [ticketID=11, ticketName=generic ticket, ticketPrice=1000, ticketQuantity=1]. Available number of tickets :- 139
+Dec 12, 2024 9:30:19 AM TicketPool removeTicket
+INFO: TICKET REMOVED :- Ticket [ticketID=12, ticketName=generic ticket, ticketPrice=1000, ticketQuantity=1]. Available number of tickets :- 138
+Dec 12, 2024 9:30:19 AM TicketPool removeTicket
+INFO: TICKET REMOVED :- Ticket [ticketID=13, ticketName=generic ticket, ticketPrice=1000, ticketQuantity=1]. Available number of tickets :- 137
+Dec 12, 2024 9:30:19 AM TicketPool removeTicket
+INFO: TICKET REMOVED :- Ticket [ticketID=14, ticketName=generic ticket, ticketPrice=1000, ticketQuantity=1]. Available number of tickets :- 136
+Dec 12, 2024 9:30:19 AM TicketPool removeTicket
+INFO: TICKET REMOVED :- Ticket [ticketID=15, ticketName=generic ticket, ticketPrice=1000, ticketQuantity=1]. Available number of tickets :- 135
+Dec 12, 2024 9:30:19 AM Customer run
+INFO: Customer 2 buy a ticket
+Dec 12, 2024 9:30:20 AM TicketPool addTickets
+INFO: ADDED TICKETS :-  10 TICKETS. NOW POOL SIZE :- 145
+Dec 12, 2024 9:30:20 AM Vendor run
+INFO: Vendor 1 added 10 tickets.
+Dec 12, 2024 9:30:20 AM TicketPool addTickets
+INFO: ADDED TICKETS :-  10 TICKETS. NOW POOL SIZE :- 155
+Dec 12, 2024 9:30:20 AM Vendor run
+INFO: Vendor 3 added 10 tickets.
+Dec 12, 2024 9:30:20 AM TicketPool removeTicket
+INFO: TICKET REMOVED :- Ticket [ticketID=16, ticketName=generic ticket, ticketPrice=1000, ticketQuantity=1]. Available number of tickets :- 154
+Dec 12, 2024 9:30:20 AM TicketPool removeTicket
+INFO: TICKET REMOVED :- Ticket [ticketID=17, ticketName=generic ticket, ticketPrice=1000, ticketQuantity=1]. Available number of tickets :- 153
+Dec 12, 2024 9:30:20 AM TicketPool removeTicket
+INFO: TICKET REMOVED :- Ticket [ticketID=18, ticketName=generic ticket, ticketPrice=1000, ticketQuantity=1]. Available number of tickets :- 152
+Dec 12, 2024 9:30:20 AM TicketPool removeTicket
+INFO: TICKET REMOVED :- Ticket [ticketID=19, ticketName=generic ticket, ticketPrice=1000, ticketQuantity=1]. Available number of tickets :- 151
+Dec 12, 2024 9:30:20 AM TicketPool removeTicket
+INFO: TICKET REMOVED :- Ticket [ticketID=20, ticketName=generic ticket, ticketPrice=1000, ticketQuantity=1]. Available number of tickets :- 150
+Dec 12, 2024 9:30:20 AM Customer run
+INFO: Customer 1 buy a ticket
+Dec 12, 2024 9:30:20 AM TicketPool removeTicket
+INFO: TICKET REMOVED :- Ticket [ticketID=21, ticketName=generic ticket, ticketPrice=1000, ticketQuantity=1]. Available number of tickets :- 149
+Dec 12, 2024 9:30:20 AM TicketPool removeTicket
+INFO: TICKET REMOVED :- Ticket [ticketID=22, ticketName=generic ticket, ticketPrice=1000, ticketQuantity=1]. Available number of tickets :- 148
+Dec 12, 2024 9:30:20 AM TicketPool removeTicket
+INFO: TICKET REMOVED :- Ticket [ticketID=23, ticketName=generic ticket, ticketPrice=1000, ticketQuantity=1]. Available number of tickets :- 147
+Dec 12, 2024 9:30:20 AM TicketPool removeTicket
+INFO: TICKET REMOVED :- Ticket [ticketID=24, ticketName=generic ticket, ticketPrice=1000, ticketQuantity=1]. Available number of tickets :- 146
+Dec 12, 2024 9:30:20 AM TicketPool removeTicket
+INFO: TICKET REMOVED :- Ticket [ticketID=25, ticketName=generic ticket, ticketPrice=1000, ticketQuantity=1]. Available number of tickets :- 145
+Dec 12, 2024 9:30:20 AM Customer run
+INFO: Customer 2 buy a ticket
+Dec 12, 2024 9:30:20 AM TicketPool addTickets
+INFO: ADDED TICKETS :-  10 TICKETS. NOW POOL SIZE :- 155
+Dec 12, 2024 9:30:20 AM Vendor run
+INFO: Vendor 4 added 10 tickets.
+Dec 12, 2024 9:30:20 AM TicketPool addTickets
+INFO: ADDED TICKETS :-  10 TICKETS. NOW POOL SIZE :- 165
+Dec 12, 2024 9:30:20 AM Vendor run
+INFO: Vendor 5 added 10 tickets.
+Dec 12, 2024 9:30:20 AM TicketPool removeTicket
+INFO: TICKET REMOVED :- Ticket [ticketID=26, ticketName=generic ticket, ticketPrice=1000, ticketQuantity=1]. Available number of tickets :- 164
+Dec 12, 2024 9:30:20 AM TicketPool removeTicket
+INFO: TICKET REMOVED :- Ticket [ticketID=27, ticketName=generic ticket, ticketPrice=1000, ticketQuantity=1]. Available number of tickets :- 163
+Dec 12, 2024 9:30:20 AM TicketPool removeTicket
+INFO: TICKET REMOVED :- Ticket [ticketID=28, ticketName=generic ticket, ticketPrice=1000, ticketQuantity=1]. Available number of tickets :- 162
+Dec 12, 2024 9:30:20 AM TicketPool removeTicket
+INFO: TICKET REMOVED :- Ticket [ticketID=29, ticketName=generic ticket, ticketPrice=1000, ticketQuantity=1]. Available number of tickets :- 161
+Dec 12, 2024 9:30:20 AM TicketPool removeTicket
+INFO: TICKET REMOVED :- Ticket [ticketID=30, ticketName=generic ticket, ticketPrice=1000, ticketQuantity=1]. Available number of tickets :- 160
+Dec 12, 2024 9:30:20 AM Customer run
+INFO: Customer 3 buy a ticket
+Dec 12, 2024 9:30:20 AM TicketPool addTickets
+INFO: ADDED TICKETS :-  10 TICKETS. NOW POOL SIZE :- 170
+Dec 12, 2024 9:30:20 AM Vendor run
+INFO: Vendor 2 added 10 tickets.
+Dec 12, 2024 9:30:21 AM TicketPool addTickets
+INFO: ADDED TICKETS :-  10 TICKETS. NOW POOL SIZE :- 180
+Dec 12, 2024 9:30:21 AM Vendor run
+INFO: Vendor 1 added 10 tickets.
+Dec 12, 2024 9:30:21 AM TicketPool addTickets
+INFO: ADDED TICKETS :-  10 TICKETS. NOW POOL SIZE :- 190
+Dec 12, 2024 9:30:21 AM Vendor run
+INFO: Vendor 3 added 10 tickets.
+Dec 12, 2024 9:30:21 AM TicketPool removeTicket
+INFO: TICKET REMOVED :- Ticket [ticketID=31, ticketName=generic ticket, ticketPrice=1000, ticketQuantity=1]. Available number of tickets :- 189
+Dec 12, 2024 9:30:21 AM TicketPool removeTicket
+INFO: TICKET REMOVED :- Ticket [ticketID=32, ticketName=generic ticket, ticketPrice=1000, ticketQuantity=1]. Available number of tickets :- 188
+Dec 12, 2024 9:30:21 AM TicketPool removeTicket
+INFO: TICKET REMOVED :- Ticket [ticketID=33, ticketName=generic ticket, ticketPrice=1000, ticketQuantity=1]. Available number of tickets :- 187
+Dec 12, 2024 9:30:21 AM TicketPool removeTicket
+INFO: TICKET REMOVED :- Ticket [ticketID=34, ticketName=generic ticket, ticketPrice=1000, ticketQuantity=1]. Available number of tickets :- 186
+Dec 12, 2024 9:30:21 AM TicketPool removeTicket
+INFO: TICKET REMOVED :- Ticket [ticketID=35, ticketName=generic ticket, ticketPrice=1000, ticketQuantity=1]. Available number of tickets :- 185
+Dec 12, 2024 9:30:21 AM Customer run
+INFO: Customer 1 buy a ticket
+Dec 12, 2024 9:30:21 AM TicketPool removeTicket
+INFO: TICKET REMOVED :- Ticket [ticketID=36, ticketName=generic ticket, ticketPrice=1000, ticketQuantity=1]. Available number of tickets :- 184
+Dec 12, 2024 9:30:21 AM TicketPool removeTicket
+INFO: TICKET REMOVED :- Ticket [ticketID=37, ticketName=generic ticket, ticketPrice=1000, ticketQuantity=1]. Available number of tickets :- 183
+Dec 12, 2024 9:30:21 AM TicketPool removeTicket
+INFO: TICKET REMOVED :- Ticket [ticketID=38, ticketName=generic ticket, ticketPrice=1000, ticketQuantity=1]. Available number of tickets :- 182
+Dec 12, 2024 9:30:21 AM TicketPool removeTicket
+INFO: TICKET REMOVED :- Ticket [ticketID=39, ticketName=generic ticket, ticketPrice=1000, ticketQuantity=1]. Available number of tickets :- 181
+Dec 12, 2024 9:30:21 AM TicketPool removeTicket
+INFO: TICKET REMOVED :- Ticket [ticketID=40, ticketName=generic ticket, ticketPrice=1000, ticketQuantity=1]. Available number of tickets :- 180
+Dec 12, 2024 9:30:21 AM Customer run
+INFO: Customer 2 buy a ticket
+Dec 12, 2024 9:30:21 AM TicketPool addTickets
+INFO: ADDED TICKETS :-  10 TICKETS. NOW POOL SIZE :- 190
+Dec 12, 2024 9:30:21 AM Vendor run
+INFO: Vendor 5 added 10 tickets.
+Dec 12, 2024 9:30:21 AM TicketPool addTickets
+INFO: ADDED TICKETS :-  10 TICKETS. NOW POOL SIZE :- 200
+Dec 12, 2024 9:30:21 AM Vendor run
+INFO: Vendor 4 added 10 tickets.
+Dec 12, 2024 9:30:21 AM TicketPool removeTicket
+INFO: TICKET REMOVED :- Ticket [ticketID=41, ticketName=generic ticket, ticketPrice=1000, ticketQuantity=1]. Available number of tickets :- 199
+Dec 12, 2024 9:30:21 AM TicketPool removeTicket
+INFO: TICKET REMOVED :- Ticket [ticketID=42, ticketName=generic ticket, ticketPrice=1000, ticketQuantity=1]. Available number of tickets :- 198
+Dec 12, 2024 9:30:21 AM TicketPool removeTicket
+INFO: TICKET REMOVED :- Ticket [ticketID=43, ticketName=generic ticket, ticketPrice=1000, ticketQuantity=1]. Available number of tickets :- 197
+Dec 12, 2024 9:30:21 AM TicketPool removeTicket
+INFO: TICKET REMOVED :- Ticket [ticketID=44, ticketName=generic ticket, ticketPrice=1000, ticketQuantity=1]. Available number of tickets :- 196
+Dec 12, 2024 9:30:21 AM TicketPool removeTicket
+INFO: TICKET REMOVED :- Ticket [ticketID=45, ticketName=generic ticket, ticketPrice=1000, ticketQuantity=1]. Available number of tickets :- 195
+Dec 12, 2024 9:30:21 AM TicketPool addTickets
+INFO: ADDED TICKETS :-  10 TICKETS. NOW POOL SIZE :- 205
+Dec 12, 2024 9:30:21 AM Vendor run
+INFO: Vendor 2 added 10 tickets.
+Dec 12, 2024 9:30:21 AM Customer run
+INFO: Customer 3 buy a ticket
+Dec 12, 2024 9:30:22 AM TicketPool addTickets
+INFO: ADDED TICKETS :-  10 TICKETS. NOW POOL SIZE :- 215
+Dec 12, 2024 9:30:22 AM Vendor run
+INFO: Vendor 1 added 10 tickets.
+Dec 12, 2024 9:30:22 AM TicketPool addTickets
+INFO: ADDED TICKETS :-  10 TICKETS. NOW POOL SIZE :- 225
+Dec 12, 2024 9:30:22 AM Vendor run
+INFO: Vendor 3 added 10 tickets.
+Dec 12, 2024 9:30:22 AM TicketPool removeTicket
+INFO: TICKET REMOVED :- Ticket [ticketID=46, ticketName=generic ticket, ticketPrice=1000, ticketQuantity=1]. Available number of tickets :- 224
+Dec 12, 2024 9:30:22 AM TicketPool removeTicket
+INFO: TICKET REMOVED :- Ticket [ticketID=47, ticketName=generic ticket, ticketPrice=1000, ticketQuantity=1]. Available number of tickets :- 223
+Dec 12, 2024 9:30:22 AM TicketPool removeTicket
+INFO: TICKET REMOVED :- Ticket [ticketID=48, ticketName=generic ticket, ticketPrice=1000, ticketQuantity=1]. Available number of tickets :- 222
+Dec 12, 2024 9:30:22 AM TicketPool removeTicket
+INFO: TICKET REMOVED :- Ticket [ticketID=49, ticketName=generic ticket, ticketPrice=1000, ticketQuantity=1]. Available number of tickets :- 221
+Dec 12, 2024 9:30:22 AM TicketPool removeTicket
+INFO: TICKET REMOVED :- Ticket [ticketID=50, ticketName=generic ticket, ticketPrice=1000, ticketQuantity=1]. Available number of tickets :- 220
+Dec 12, 2024 9:30:22 AM Customer run
+INFO: Customer 1 buy a ticket
+Dec 12, 2024 9:30:22 AM TicketPool removeTicket
+INFO: TICKET REMOVED :- Ticket [ticketID=51, ticketName=generic ticket, ticketPrice=1000, ticketQuantity=1]. Available number of tickets :- 219
+Dec 12, 2024 9:30:22 AM TicketPool removeTicket
+INFO: TICKET REMOVED :- Ticket [ticketID=52, ticketName=generic ticket, ticketPrice=1000, ticketQuantity=1]. Available number of tickets :- 218
+Dec 12, 2024 9:30:22 AM TicketPool removeTicket
+INFO: TICKET REMOVED :- Ticket [ticketID=53, ticketName=generic ticket, ticketPrice=1000, ticketQuantity=1]. Available number of tickets :- 217
+Dec 12, 2024 9:30:22 AM TicketPool removeTicket
+INFO: TICKET REMOVED :- Ticket [ticketID=54, ticketName=generic ticket, ticketPrice=1000, ticketQuantity=1]. Available number of tickets :- 216
+Dec 12, 2024 9:30:22 AM TicketPool removeTicket
+INFO: TICKET REMOVED :- Ticket [ticketID=55, ticketName=generic ticket, ticketPrice=1000, ticketQuantity=1]. Available number of tickets :- 215
+Dec 12, 2024 9:30:22 AM Customer run
+INFO: Customer 2 buy a ticket
+Dec 12, 2024 9:30:22 AM TicketPool addTickets
+INFO: ADDED TICKETS :-  10 TICKETS. NOW POOL SIZE :- 225
+Dec 12, 2024 9:30:22 AM Vendor run
+INFO: Vendor 5 added 10 tickets.
+Dec 12, 2024 9:30:22 AM TicketPool addTickets
+INFO: ADDED TICKETS :-  10 TICKETS. NOW POOL SIZE :- 235
+Dec 12, 2024 9:30:22 AM Vendor run
+INFO: Vendor 4 added 10 tickets.
+Dec 12, 2024 9:30:22 AM TicketPool removeTicket
+INFO: TICKET REMOVED :- Ticket [ticketID=56, ticketName=generic ticket, ticketPrice=1000, ticketQuantity=1]. Available number of tickets :- 234
+Dec 12, 2024 9:30:22 AM TicketPool removeTicket
+INFO: TICKET REMOVED :- Ticket [ticketID=57, ticketName=generic ticket, ticketPrice=1000, ticketQuantity=1]. Available number of tickets :- 233
+Dec 12, 2024 9:30:22 AM TicketPool removeTicket
+INFO: TICKET REMOVED :- Ticket [ticketID=58, ticketName=generic ticket, ticketPrice=1000, ticketQuantity=1]. Available number of tickets :- 232
+Dec 12, 2024 9:30:22 AM TicketPool removeTicket
+INFO: TICKET REMOVED :- Ticket [ticketID=59, ticketName=generic ticket, ticketPrice=1000, ticketQuantity=1]. Available number of tickets :- 231
+Dec 12, 2024 9:30:22 AM TicketPool removeTicket
+INFO: TICKET REMOVED :- Ticket [ticketID=60, ticketName=generic ticket, ticketPrice=1000, ticketQuantity=1]. Available number of tickets :- 230
+Dec 12, 2024 9:30:22 AM Customer run
+INFO: Customer 3 buy a ticket
+Dec 12, 2024 9:30:22 AM TicketPool addTickets
+INFO: ADDED TICKETS :-  10 TICKETS. NOW POOL SIZE :- 240
+Dec 12, 2024 9:30:22 AM Vendor run
+INFO: Vendor 2 added 10 tickets.
+Dec 12, 2024 9:30:23 AM TicketPool addTickets
+INFO: ADDED TICKETS :-  10 TICKETS. NOW POOL SIZE :- 250
+Dec 12, 2024 9:30:23 AM Vendor run
+INFO: Vendor 1 added 10 tickets.
+Dec 12, 2024 9:30:23 AM TicketPool removeTicket
+INFO: TICKET REMOVED :- Ticket [ticketID=61, ticketName=generic ticket, ticketPrice=1000, ticketQuantity=1]. Available number of tickets :- 249
+Dec 12, 2024 9:30:23 AM TicketPool removeTicket
+INFO: TICKET REMOVED :- Ticket [ticketID=62, ticketName=generic ticket, ticketPrice=1000, ticketQuantity=1]. Available number of tickets :- 248
+Dec 12, 2024 9:30:23 AM TicketPool removeTicket
+INFO: TICKET REMOVED :- Ticket [ticketID=63, ticketName=generic ticket, ticketPrice=1000, ticketQuantity=1]. Available number of tickets :- 247
+Dec 12, 2024 9:30:23 AM TicketPool removeTicket
+INFO: TICKET REMOVED :- Ticket [ticketID=64, ticketName=generic ticket, ticketPrice=1000, ticketQuantity=1]. Available number of tickets :- 246
+Dec 12, 2024 9:30:23 AM TicketPool removeTicket
+INFO: TICKET REMOVED :- Ticket [ticketID=65, ticketName=generic ticket, ticketPrice=1000, ticketQuantity=1]. Available number of tickets :- 245
+Dec 12, 2024 9:30:23 AM Customer run
+INFO: Customer 2 buy a ticket
+Dec 12, 2024 9:30:23 AM TicketPool removeTicket
+INFO: TICKET REMOVED :- Ticket [ticketID=66, ticketName=generic ticket, ticketPrice=1000, ticketQuantity=1]. Available number of tickets :- 244
+Dec 12, 2024 9:30:23 AM TicketPool removeTicket
+INFO: TICKET REMOVED :- Ticket [ticketID=67, ticketName=generic ticket, ticketPrice=1000, ticketQuantity=1]. Available number of tickets :- 243
+Dec 12, 2024 9:30:23 AM TicketPool removeTicket
+INFO: TICKET REMOVED :- Ticket [ticketID=68, ticketName=generic ticket, ticketPrice=1000, ticketQuantity=1]. Available number of tickets :- 242
+Dec 12, 2024 9:30:23 AM TicketPool removeTicket
+INFO: TICKET REMOVED :- Ticket [ticketID=69, ticketName=generic ticket, ticketPrice=1000, ticketQuantity=1]. Available number of tickets :- 241
+Dec 12, 2024 9:30:23 AM TicketPool removeTicket
+INFO: TICKET REMOVED :- Ticket [ticketID=70, ticketName=generic ticket, ticketPrice=1000, ticketQuantity=1]. Available number of tickets :- 240
+Dec 12, 2024 9:30:23 AM Customer run
+INFO: Customer 1 buy a ticket
+Dec 12, 2024 9:30:23 AM TicketPool addTickets
+INFO: ADDED TICKETS :-  10 TICKETS. NOW POOL SIZE :- 250
+Dec 12, 2024 9:30:23 AM Vendor run
+INFO: Vendor 3 added 10 tickets.
+Dec 12, 2024 9:30:23 AM TicketPool addTickets
+INFO: ADDED TICKETS :-  10 TICKETS. NOW POOL SIZE :- 260
+Dec 12, 2024 9:30:23 AM Vendor run
+INFO: Vendor 4 added 10 tickets.
+Dec 12, 2024 9:30:23 AM TicketPool addTickets
+INFO: ADDED TICKETS :-  10 TICKETS. NOW POOL SIZE :- 270
+Dec 12, 2024 9:30:23 AM Vendor run
+INFO: Vendor 5 added 10 tickets.
+Dec 12, 2024 9:30:23 AM TicketPool removeTicket
+INFO: TICKET REMOVED :- Ticket [ticketID=71, ticketName=generic ticket, ticketPrice=1000, ticketQuantity=1]. Available number of tickets :- 269
+Dec 12, 2024 9:30:23 AM TicketPool removeTicket
+INFO: TICKET REMOVED :- Ticket [ticketID=72, ticketName=generic ticket, ticketPrice=1000, ticketQuantity=1]. Available number of tickets :- 268
+Dec 12, 2024 9:30:23 AM TicketPool removeTicket
+INFO: TICKET REMOVED :- Ticket [ticketID=73, ticketName=generic ticket, ticketPrice=1000, ticketQuantity=1]. Available number of tickets :- 267
+Dec 12, 2024 9:30:23 AM TicketPool removeTicket
+INFO: TICKET REMOVED :- Ticket [ticketID=74, ticketName=generic ticket, ticketPrice=1000, ticketQuantity=1]. Available number of tickets :- 266
+Dec 12, 2024 9:30:23 AM TicketPool removeTicket
+INFO: TICKET REMOVED :- Ticket [ticketID=75, ticketName=generic ticket, ticketPrice=1000, ticketQuantity=1]. Available number of tickets :- 265
+Dec 12, 2024 9:30:23 AM Customer run
+INFO: Customer 3 buy a ticket
+Dec 12, 2024 9:30:23 AM TicketPool addTickets
+INFO: ADDED TICKETS :-  10 TICKETS. NOW POOL SIZE :- 275
+Dec 12, 2024 9:30:23 AM Vendor run
+INFO: Vendor 2 added 10 tickets.
+Dec 12, 2024 9:30:23 AM TicketSystem lambda$runSystem$0
+INFO: SHUTTING DOWN THE SYSTEM...

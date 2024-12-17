@@ -1,0 +1,544 @@
+Dec 12, 2024 7:15:52 AM com.Ticketing.System.Model.TicketPool addTickets
+INFO: ADDED NUMBER OF TICKETS :-  5 TICKETS. NOW POOL SIZE :- 105
+Dec 12, 2024 7:15:52 AM com.Ticketing.System.Model.Vendor run
+INFO: Vendor 1 added 5 tickets.
+Dec 12, 2024 7:15:52 AM com.Ticketing.System.Model.TicketPool removeTicket
+INFO: TICKET REMOVED :- Ticket(ticketID=null, ticketNumber=1, ticketName=Movie ticket, ticketType=VIP, ticketStatus=available, ticketPrice=5.55). Available number of tickets :- 104
+Dec 12, 2024 7:15:52 AM com.Ticketing.System.Model.TicketPool removeTicket
+INFO: TICKET REMOVED :- Ticket(ticketID=null, ticketNumber=2, ticketName=Movie ticket, ticketType=VIP, ticketStatus=available, ticketPrice=5.55). Available number of tickets :- 103
+Dec 12, 2024 7:15:52 AM com.Ticketing.System.Model.TicketPool removeTicket
+INFO: TICKET REMOVED :- Ticket(ticketID=null, ticketNumber=3, ticketName=Movie ticket, ticketType=VIP, ticketStatus=available, ticketPrice=5.55). Available number of tickets :- 102
+Dec 12, 2024 7:15:52 AM com.Ticketing.System.Model.Customer run
+INFO: Customer 3buy 3 tickets 
+Dec 12, 2024 7:15:52 AM com.Ticketing.System.Model.TicketPool removeTicket
+INFO: TICKET REMOVED :- Ticket(ticketID=null, ticketNumber=4, ticketName=Movie ticket, ticketType=VIP, ticketStatus=available, ticketPrice=5.55). Available number of tickets :- 101
+Dec 12, 2024 7:15:52 AM com.Ticketing.System.Model.TicketPool removeTicket
+INFO: TICKET REMOVED :- Ticket(ticketID=null, ticketNumber=5, ticketName=Movie ticket, ticketType=VIP, ticketStatus=available, ticketPrice=5.55). Available number of tickets :- 100
+Dec 12, 2024 7:15:52 AM com.Ticketing.System.Model.TicketPool removeTicket
+INFO: TICKET REMOVED :- Ticket(ticketID=null, ticketNumber=6, ticketName=Movie ticket, ticketType=VIP, ticketStatus=available, ticketPrice=5.55). Available number of tickets :- 99
+Dec 12, 2024 7:15:52 AM com.Ticketing.System.Model.Customer run
+INFO: Customer 2buy 3 tickets 
+Dec 12, 2024 7:15:52 AM com.Ticketing.System.Model.TicketPool removeTicket
+INFO: TICKET REMOVED :- Ticket(ticketID=null, ticketNumber=7, ticketName=Movie ticket, ticketType=VIP, ticketStatus=available, ticketPrice=5.55). Available number of tickets :- 98
+Dec 12, 2024 7:15:52 AM com.Ticketing.System.Model.TicketPool removeTicket
+INFO: TICKET REMOVED :- Ticket(ticketID=null, ticketNumber=8, ticketName=Movie ticket, ticketType=VIP, ticketStatus=available, ticketPrice=5.55). Available number of tickets :- 97
+Dec 12, 2024 7:15:52 AM com.Ticketing.System.Model.TicketPool removeTicket
+INFO: TICKET REMOVED :- Ticket(ticketID=null, ticketNumber=9, ticketName=Movie ticket, ticketType=VIP, ticketStatus=available, ticketPrice=5.55). Available number of tickets :- 96
+Dec 12, 2024 7:15:52 AM com.Ticketing.System.Model.Customer run
+INFO: Customer 1buy 3 tickets 
+Dec 12, 2024 7:15:52 AM com.Ticketing.System.Model.TicketPool addTickets
+INFO: ADDED NUMBER OF TICKETS :-  5 TICKETS. NOW POOL SIZE :- 101
+Dec 12, 2024 7:15:52 AM com.Ticketing.System.Model.Vendor run
+INFO: Vendor 3 added 5 tickets.
+Dec 12, 2024 7:15:52 AM com.Ticketing.System.Model.TicketPool addTickets
+INFO: ADDED NUMBER OF TICKETS :-  5 TICKETS. NOW POOL SIZE :- 106
+Dec 12, 2024 7:15:52 AM com.Ticketing.System.Model.Vendor run
+INFO: Vendor 5 added 5 tickets.
+Dec 12, 2024 7:15:52 AM com.Ticketing.System.Model.TicketPool addTickets
+INFO: ADDED NUMBER OF TICKETS :-  5 TICKETS. NOW POOL SIZE :- 111
+Dec 12, 2024 7:15:52 AM com.Ticketing.System.Model.Vendor run
+INFO: Vendor 4 added 5 tickets.
+Dec 12, 2024 7:15:52 AM com.Ticketing.System.Model.TicketPool addTickets
+INFO: ADDED NUMBER OF TICKETS :-  5 TICKETS. NOW POOL SIZE :- 116
+Dec 12, 2024 7:15:52 AM com.Ticketing.System.Model.Vendor run
+INFO: Vendor 2 added 5 tickets.
+Dec 12, 2024 7:15:53 AM com.Ticketing.System.Model.TicketPool addTickets
+INFO: ADDED NUMBER OF TICKETS :-  5 TICKETS. NOW POOL SIZE :- 121
+Dec 12, 2024 7:15:53 AM com.Ticketing.System.Model.Vendor run
+INFO: Vendor 1 added 5 tickets.
+Dec 12, 2024 7:15:53 AM com.Ticketing.System.Model.TicketPool removeTicket
+INFO: TICKET REMOVED :- Ticket(ticketID=null, ticketNumber=10, ticketName=Movie ticket, ticketType=VIP, ticketStatus=available, ticketPrice=5.55). Available number of tickets :- 120
+Dec 12, 2024 7:15:53 AM com.Ticketing.System.Model.TicketPool removeTicket
+INFO: TICKET REMOVED :- Ticket(ticketID=null, ticketNumber=11, ticketName=Movie ticket, ticketType=VIP, ticketStatus=available, ticketPrice=5.55). Available number of tickets :- 119
+Dec 12, 2024 7:15:53 AM com.Ticketing.System.Model.TicketPool removeTicket
+INFO: TICKET REMOVED :- Ticket(ticketID=null, ticketNumber=12, ticketName=Movie ticket, ticketType=VIP, ticketStatus=available, ticketPrice=5.55). Available number of tickets :- 118
+Dec 12, 2024 7:15:53 AM com.Ticketing.System.Model.Customer run
+INFO: Customer 3buy 3 tickets 
+Dec 12, 2024 7:15:53 AM com.Ticketing.System.Model.TicketPool removeTicket
+INFO: TICKET REMOVED :- Ticket(ticketID=null, ticketNumber=13, ticketName=Movie ticket, ticketType=VIP, ticketStatus=available, ticketPrice=5.55). Available number of tickets :- 117
+Dec 12, 2024 7:15:53 AM com.Ticketing.System.Model.TicketPool removeTicket
+INFO: TICKET REMOVED :- Ticket(ticketID=null, ticketNumber=14, ticketName=Movie ticket, ticketType=VIP, ticketStatus=available, ticketPrice=5.55). Available number of tickets :- 116
+Dec 12, 2024 7:15:53 AM com.Ticketing.System.Model.TicketPool removeTicket
+INFO: TICKET REMOVED :- Ticket(ticketID=null, ticketNumber=15, ticketName=Movie ticket, ticketType=VIP, ticketStatus=available, ticketPrice=5.55). Available number of tickets :- 115
+Dec 12, 2024 7:15:53 AM com.Ticketing.System.Model.Customer run
+INFO: Customer 2buy 3 tickets 
+Dec 12, 2024 7:15:53 AM com.Ticketing.System.Model.TicketPool removeTicket
+INFO: TICKET REMOVED :- Ticket(ticketID=null, ticketNumber=16, ticketName=Movie ticket, ticketType=VIP, ticketStatus=available, ticketPrice=5.55). Available number of tickets :- 114
+Dec 12, 2024 7:15:53 AM com.Ticketing.System.Model.TicketPool removeTicket
+INFO: TICKET REMOVED :- Ticket(ticketID=null, ticketNumber=17, ticketName=Movie ticket, ticketType=VIP, ticketStatus=available, ticketPrice=5.55). Available number of tickets :- 113
+Dec 12, 2024 7:15:53 AM com.Ticketing.System.Model.TicketPool removeTicket
+INFO: TICKET REMOVED :- Ticket(ticketID=null, ticketNumber=18, ticketName=Movie ticket, ticketType=VIP, ticketStatus=available, ticketPrice=5.55). Available number of tickets :- 112
+Dec 12, 2024 7:15:53 AM com.Ticketing.System.Model.Customer run
+INFO: Customer 1buy 3 tickets 
+Dec 12, 2024 7:15:53 AM com.Ticketing.System.Model.TicketPool addTickets
+INFO: ADDED NUMBER OF TICKETS :-  5 TICKETS. NOW POOL SIZE :- 117
+Dec 12, 2024 7:15:53 AM com.Ticketing.System.Model.Vendor run
+INFO: Vendor 5 added 5 tickets.
+Dec 12, 2024 7:15:53 AM com.Ticketing.System.Model.TicketPool addTickets
+INFO: ADDED NUMBER OF TICKETS :-  5 TICKETS. NOW POOL SIZE :- 122
+Dec 12, 2024 7:15:53 AM com.Ticketing.System.Model.Vendor run
+INFO: Vendor 3 added 5 tickets.
+Dec 12, 2024 7:15:53 AM com.Ticketing.System.Model.TicketPool addTickets
+INFO: ADDED NUMBER OF TICKETS :-  5 TICKETS. NOW POOL SIZE :- 127
+Dec 12, 2024 7:15:53 AM com.Ticketing.System.Model.Vendor run
+INFO: Vendor 2 added 5 tickets.
+Dec 12, 2024 7:15:53 AM com.Ticketing.System.Model.TicketPool addTickets
+INFO: ADDED NUMBER OF TICKETS :-  5 TICKETS. NOW POOL SIZE :- 132
+Dec 12, 2024 7:15:53 AM com.Ticketing.System.Model.Vendor run
+INFO: Vendor 4 added 5 tickets.
+Dec 12, 2024 7:15:54 AM com.Ticketing.System.Model.TicketPool addTickets
+INFO: ADDED NUMBER OF TICKETS :-  5 TICKETS. NOW POOL SIZE :- 137
+Dec 12, 2024 7:15:54 AM com.Ticketing.System.Model.Vendor run
+INFO: Vendor 1 added 5 tickets.
+Dec 12, 2024 7:15:54 AM com.Ticketing.System.Model.TicketPool addTickets
+INFO: ADDED NUMBER OF TICKETS :-  5 TICKETS. NOW POOL SIZE :- 142
+Dec 12, 2024 7:15:54 AM com.Ticketing.System.Model.Vendor run
+INFO: Vendor 5 added 5 tickets.
+Dec 12, 2024 7:15:54 AM com.Ticketing.System.Model.TicketPool removeTicket
+INFO: TICKET REMOVED :- Ticket(ticketID=null, ticketNumber=19, ticketName=Movie ticket, ticketType=VIP, ticketStatus=available, ticketPrice=5.55). Available number of tickets :- 141
+Dec 12, 2024 7:15:54 AM com.Ticketing.System.Model.TicketPool removeTicket
+INFO: TICKET REMOVED :- Ticket(ticketID=null, ticketNumber=20, ticketName=Movie ticket, ticketType=VIP, ticketStatus=available, ticketPrice=5.55). Available number of tickets :- 140
+Dec 12, 2024 7:15:54 AM com.Ticketing.System.Model.TicketPool removeTicket
+INFO: TICKET REMOVED :- Ticket(ticketID=null, ticketNumber=21, ticketName=Movie ticket, ticketType=VIP, ticketStatus=available, ticketPrice=5.55). Available number of tickets :- 139
+Dec 12, 2024 7:15:54 AM com.Ticketing.System.Model.Customer run
+INFO: Customer 2buy 3 tickets 
+Dec 12, 2024 7:15:54 AM com.Ticketing.System.Model.TicketPool removeTicket
+INFO: TICKET REMOVED :- Ticket(ticketID=null, ticketNumber=22, ticketName=Movie ticket, ticketType=VIP, ticketStatus=available, ticketPrice=5.55). Available number of tickets :- 138
+Dec 12, 2024 7:15:54 AM com.Ticketing.System.Model.TicketPool removeTicket
+INFO: TICKET REMOVED :- Ticket(ticketID=null, ticketNumber=23, ticketName=Movie ticket, ticketType=VIP, ticketStatus=available, ticketPrice=5.55). Available number of tickets :- 137
+Dec 12, 2024 7:15:54 AM com.Ticketing.System.Model.TicketPool removeTicket
+INFO: TICKET REMOVED :- Ticket(ticketID=null, ticketNumber=24, ticketName=Movie ticket, ticketType=VIP, ticketStatus=available, ticketPrice=5.55). Available number of tickets :- 136
+Dec 12, 2024 7:15:54 AM com.Ticketing.System.Model.Customer run
+INFO: Customer 3buy 3 tickets 
+Dec 12, 2024 7:15:54 AM com.Ticketing.System.Model.TicketPool removeTicket
+INFO: TICKET REMOVED :- Ticket(ticketID=null, ticketNumber=25, ticketName=Movie ticket, ticketType=VIP, ticketStatus=available, ticketPrice=5.55). Available number of tickets :- 135
+Dec 12, 2024 7:15:54 AM com.Ticketing.System.Model.TicketPool removeTicket
+INFO: TICKET REMOVED :- Ticket(ticketID=null, ticketNumber=26, ticketName=Movie ticket, ticketType=VIP, ticketStatus=available, ticketPrice=5.55). Available number of tickets :- 134
+Dec 12, 2024 7:15:54 AM com.Ticketing.System.Model.TicketPool removeTicket
+INFO: TICKET REMOVED :- Ticket(ticketID=null, ticketNumber=27, ticketName=Movie ticket, ticketType=VIP, ticketStatus=available, ticketPrice=5.55). Available number of tickets :- 133
+Dec 12, 2024 7:15:54 AM com.Ticketing.System.Model.Customer run
+INFO: Customer 1buy 3 tickets 
+Dec 12, 2024 7:15:54 AM com.Ticketing.System.Model.TicketPool addTickets
+INFO: ADDED NUMBER OF TICKETS :-  5 TICKETS. NOW POOL SIZE :- 138
+Dec 12, 2024 7:15:54 AM com.Ticketing.System.Model.Vendor run
+INFO: Vendor 3 added 5 tickets.
+Dec 12, 2024 7:15:54 AM com.Ticketing.System.Model.TicketPool addTickets
+INFO: ADDED NUMBER OF TICKETS :-  5 TICKETS. NOW POOL SIZE :- 143
+Dec 12, 2024 7:15:54 AM com.Ticketing.System.Model.Vendor run
+INFO: Vendor 4 added 5 tickets.
+Dec 12, 2024 7:15:54 AM com.Ticketing.System.Model.TicketPool addTickets
+INFO: ADDED NUMBER OF TICKETS :-  5 TICKETS. NOW POOL SIZE :- 148
+Dec 12, 2024 7:15:54 AM com.Ticketing.System.Model.Vendor run
+INFO: Vendor 2 added 5 tickets.
+Dec 12, 2024 7:15:55 AM com.Ticketing.System.Model.TicketPool addTickets
+INFO: ADDED NUMBER OF TICKETS :-  5 TICKETS. NOW POOL SIZE :- 153
+Dec 12, 2024 7:15:55 AM com.Ticketing.System.Model.Vendor run
+INFO: Vendor 1 added 5 tickets.
+Dec 12, 2024 7:15:55 AM com.Ticketing.System.Model.TicketPool addTickets
+INFO: ADDED NUMBER OF TICKETS :-  5 TICKETS. NOW POOL SIZE :- 158
+Dec 12, 2024 7:15:55 AM com.Ticketing.System.Model.Vendor run
+INFO: Vendor 5 added 5 tickets.
+Dec 12, 2024 7:15:55 AM com.Ticketing.System.Model.TicketPool removeTicket
+INFO: TICKET REMOVED :- Ticket(ticketID=null, ticketNumber=28, ticketName=Movie ticket, ticketType=VIP, ticketStatus=available, ticketPrice=5.55). Available number of tickets :- 157
+Dec 12, 2024 7:15:55 AM com.Ticketing.System.Model.TicketPool removeTicket
+INFO: TICKET REMOVED :- Ticket(ticketID=null, ticketNumber=29, ticketName=Movie ticket, ticketType=VIP, ticketStatus=available, ticketPrice=5.55). Available number of tickets :- 156
+Dec 12, 2024 7:15:55 AM com.Ticketing.System.Model.TicketPool removeTicket
+INFO: TICKET REMOVED :- Ticket(ticketID=null, ticketNumber=30, ticketName=Movie ticket, ticketType=VIP, ticketStatus=available, ticketPrice=5.55). Available number of tickets :- 155
+Dec 12, 2024 7:15:55 AM com.Ticketing.System.Model.Customer run
+INFO: Customer 2buy 3 tickets 
+Dec 12, 2024 7:15:55 AM com.Ticketing.System.Model.TicketPool removeTicket
+INFO: TICKET REMOVED :- Ticket(ticketID=null, ticketNumber=31, ticketName=Movie ticket, ticketType=VIP, ticketStatus=available, ticketPrice=5.55). Available number of tickets :- 154
+Dec 12, 2024 7:15:55 AM com.Ticketing.System.Model.TicketPool removeTicket
+INFO: TICKET REMOVED :- Ticket(ticketID=null, ticketNumber=32, ticketName=Movie ticket, ticketType=VIP, ticketStatus=available, ticketPrice=5.55). Available number of tickets :- 153
+Dec 12, 2024 7:15:55 AM com.Ticketing.System.Model.TicketPool removeTicket
+INFO: TICKET REMOVED :- Ticket(ticketID=null, ticketNumber=33, ticketName=Movie ticket, ticketType=VIP, ticketStatus=available, ticketPrice=5.55). Available number of tickets :- 152
+Dec 12, 2024 7:15:55 AM com.Ticketing.System.Model.Customer run
+INFO: Customer 3buy 3 tickets 
+Dec 12, 2024 7:15:55 AM com.Ticketing.System.Model.TicketPool removeTicket
+INFO: TICKET REMOVED :- Ticket(ticketID=null, ticketNumber=34, ticketName=Movie ticket, ticketType=VIP, ticketStatus=available, ticketPrice=5.55). Available number of tickets :- 151
+Dec 12, 2024 7:15:55 AM com.Ticketing.System.Model.TicketPool removeTicket
+INFO: TICKET REMOVED :- Ticket(ticketID=null, ticketNumber=35, ticketName=Movie ticket, ticketType=VIP, ticketStatus=available, ticketPrice=5.55). Available number of tickets :- 150
+Dec 12, 2024 7:15:55 AM com.Ticketing.System.Model.TicketPool removeTicket
+INFO: TICKET REMOVED :- Ticket(ticketID=null, ticketNumber=36, ticketName=Movie ticket, ticketType=VIP, ticketStatus=available, ticketPrice=5.55). Available number of tickets :- 149
+Dec 12, 2024 7:15:55 AM com.Ticketing.System.Model.Customer run
+INFO: Customer 1buy 3 tickets 
+Dec 12, 2024 7:15:55 AM com.Ticketing.System.Model.TicketPool addTickets
+INFO: ADDED NUMBER OF TICKETS :-  5 TICKETS. NOW POOL SIZE :- 154
+Dec 12, 2024 7:15:55 AM com.Ticketing.System.Model.Vendor run
+INFO: Vendor 3 added 5 tickets.
+Dec 12, 2024 7:15:55 AM com.Ticketing.System.Model.TicketPool addTickets
+INFO: ADDED NUMBER OF TICKETS :-  5 TICKETS. NOW POOL SIZE :- 159
+Dec 12, 2024 7:15:55 AM com.Ticketing.System.Model.Vendor run
+INFO: Vendor 2 added 5 tickets.
+Dec 12, 2024 7:15:55 AM com.Ticketing.System.Model.TicketPool addTickets
+INFO: ADDED NUMBER OF TICKETS :-  5 TICKETS. NOW POOL SIZE :- 164
+Dec 12, 2024 7:15:55 AM com.Ticketing.System.Model.Vendor run
+INFO: Vendor 4 added 5 tickets.
+Dec 12, 2024 7:15:56 AM com.Ticketing.System.Model.TicketPool addTickets
+INFO: ADDED NUMBER OF TICKETS :-  5 TICKETS. NOW POOL SIZE :- 169
+Dec 12, 2024 7:15:56 AM com.Ticketing.System.Model.Vendor run
+INFO: Vendor 1 added 5 tickets.
+Dec 12, 2024 7:15:56 AM com.Ticketing.System.Model.TicketPool addTickets
+INFO: ADDED NUMBER OF TICKETS :-  5 TICKETS. NOW POOL SIZE :- 174
+Dec 12, 2024 7:15:56 AM com.Ticketing.System.Model.Vendor run
+INFO: Vendor 5 added 5 tickets.
+Dec 12, 2024 7:15:56 AM com.Ticketing.System.Model.TicketPool removeTicket
+INFO: TICKET REMOVED :- Ticket(ticketID=null, ticketNumber=37, ticketName=Movie ticket, ticketType=VIP, ticketStatus=available, ticketPrice=5.55). Available number of tickets :- 173
+Dec 12, 2024 7:15:56 AM com.Ticketing.System.Model.TicketPool removeTicket
+INFO: TICKET REMOVED :- Ticket(ticketID=null, ticketNumber=38, ticketName=Movie ticket, ticketType=VIP, ticketStatus=available, ticketPrice=5.55). Available number of tickets :- 172
+Dec 12, 2024 7:15:56 AM com.Ticketing.System.Model.TicketPool removeTicket
+INFO: TICKET REMOVED :- Ticket(ticketID=null, ticketNumber=39, ticketName=Movie ticket, ticketType=VIP, ticketStatus=available, ticketPrice=5.55). Available number of tickets :- 171
+Dec 12, 2024 7:15:56 AM com.Ticketing.System.Model.Customer run
+INFO: Customer 2buy 3 tickets 
+Dec 12, 2024 7:15:56 AM com.Ticketing.System.Model.TicketPool removeTicket
+INFO: TICKET REMOVED :- Ticket(ticketID=null, ticketNumber=40, ticketName=Movie ticket, ticketType=VIP, ticketStatus=available, ticketPrice=5.55). Available number of tickets :- 170
+Dec 12, 2024 7:15:56 AM com.Ticketing.System.Model.TicketPool removeTicket
+INFO: TICKET REMOVED :- Ticket(ticketID=null, ticketNumber=41, ticketName=Movie ticket, ticketType=VIP, ticketStatus=available, ticketPrice=5.55). Available number of tickets :- 169
+Dec 12, 2024 7:15:56 AM com.Ticketing.System.Model.TicketPool removeTicket
+INFO: TICKET REMOVED :- Ticket(ticketID=null, ticketNumber=42, ticketName=Movie ticket, ticketType=VIP, ticketStatus=available, ticketPrice=5.55). Available number of tickets :- 168
+Dec 12, 2024 7:15:56 AM com.Ticketing.System.Model.Customer run
+INFO: Customer 3buy 3 tickets 
+Dec 12, 2024 7:15:56 AM com.Ticketing.System.Model.TicketPool addTickets
+INFO: ADDED NUMBER OF TICKETS :-  5 TICKETS. NOW POOL SIZE :- 173
+Dec 12, 2024 7:15:56 AM com.Ticketing.System.Model.Vendor run
+INFO: Vendor 3 added 5 tickets.
+Dec 12, 2024 7:15:56 AM com.Ticketing.System.Model.TicketPool removeTicket
+INFO: TICKET REMOVED :- Ticket(ticketID=null, ticketNumber=43, ticketName=Movie ticket, ticketType=VIP, ticketStatus=available, ticketPrice=5.55). Available number of tickets :- 172
+Dec 12, 2024 7:15:56 AM com.Ticketing.System.Model.TicketPool removeTicket
+INFO: TICKET REMOVED :- Ticket(ticketID=null, ticketNumber=44, ticketName=Movie ticket, ticketType=VIP, ticketStatus=available, ticketPrice=5.55). Available number of tickets :- 171
+Dec 12, 2024 7:15:56 AM com.Ticketing.System.Model.TicketPool removeTicket
+INFO: TICKET REMOVED :- Ticket(ticketID=null, ticketNumber=45, ticketName=Movie ticket, ticketType=VIP, ticketStatus=available, ticketPrice=5.55). Available number of tickets :- 170
+Dec 12, 2024 7:15:56 AM com.Ticketing.System.Model.Customer run
+INFO: Customer 1buy 3 tickets 
+Dec 12, 2024 7:15:56 AM com.Ticketing.System.Model.TicketPool addTickets
+INFO: ADDED NUMBER OF TICKETS :-  5 TICKETS. NOW POOL SIZE :- 175
+Dec 12, 2024 7:15:56 AM com.Ticketing.System.Model.TicketPool addTickets
+INFO: ADDED NUMBER OF TICKETS :-  5 TICKETS. NOW POOL SIZE :- 180
+Dec 12, 2024 7:15:56 AM com.Ticketing.System.Model.Vendor run
+INFO: Vendor 4 added 5 tickets.
+Dec 12, 2024 7:15:56 AM com.Ticketing.System.Model.Vendor run
+INFO: Vendor 2 added 5 tickets.
+Dec 12, 2024 7:15:57 AM com.Ticketing.System.Model.TicketPool addTickets
+INFO: ADDED NUMBER OF TICKETS :-  5 TICKETS. NOW POOL SIZE :- 185
+Dec 12, 2024 7:15:57 AM com.Ticketing.System.Model.Vendor run
+INFO: Vendor 1 added 5 tickets.
+Dec 12, 2024 7:15:57 AM com.Ticketing.System.Model.TicketPool addTickets
+INFO: ADDED NUMBER OF TICKETS :-  5 TICKETS. NOW POOL SIZE :- 190
+Dec 12, 2024 7:15:57 AM com.Ticketing.System.Model.Vendor run
+INFO: Vendor 5 added 5 tickets.
+Dec 12, 2024 7:15:57 AM com.Ticketing.System.Model.TicketPool removeTicket
+INFO: TICKET REMOVED :- Ticket(ticketID=null, ticketNumber=46, ticketName=Movie ticket, ticketType=VIP, ticketStatus=available, ticketPrice=5.55). Available number of tickets :- 189
+Dec 12, 2024 7:15:57 AM com.Ticketing.System.Model.TicketPool removeTicket
+INFO: TICKET REMOVED :- Ticket(ticketID=null, ticketNumber=47, ticketName=Movie ticket, ticketType=VIP, ticketStatus=available, ticketPrice=5.55). Available number of tickets :- 188
+Dec 12, 2024 7:15:57 AM com.Ticketing.System.Model.TicketPool removeTicket
+INFO: TICKET REMOVED :- Ticket(ticketID=null, ticketNumber=48, ticketName=Movie ticket, ticketType=VIP, ticketStatus=available, ticketPrice=5.55). Available number of tickets :- 187
+Dec 12, 2024 7:15:57 AM com.Ticketing.System.Model.Customer run
+INFO: Customer 3buy 3 tickets 
+Dec 12, 2024 7:15:57 AM com.Ticketing.System.Model.TicketPool removeTicket
+INFO: TICKET REMOVED :- Ticket(ticketID=null, ticketNumber=49, ticketName=Movie ticket, ticketType=VIP, ticketStatus=available, ticketPrice=5.55). Available number of tickets :- 186
+Dec 12, 2024 7:15:57 AM com.Ticketing.System.Model.TicketPool removeTicket
+INFO: TICKET REMOVED :- Ticket(ticketID=null, ticketNumber=50, ticketName=Movie ticket, ticketType=VIP, ticketStatus=available, ticketPrice=5.55). Available number of tickets :- 185
+Dec 12, 2024 7:15:57 AM com.Ticketing.System.Model.TicketPool removeTicket
+INFO: TICKET REMOVED :- Ticket(ticketID=null, ticketNumber=51, ticketName=Movie ticket, ticketType=VIP, ticketStatus=available, ticketPrice=5.55). Available number of tickets :- 184
+Dec 12, 2024 7:15:57 AM com.Ticketing.System.Model.Customer run
+INFO: Customer 2buy 3 tickets 
+Dec 12, 2024 7:15:57 AM com.Ticketing.System.Model.TicketPool addTickets
+INFO: ADDED NUMBER OF TICKETS :-  5 TICKETS. NOW POOL SIZE :- 189
+Dec 12, 2024 7:15:57 AM com.Ticketing.System.Model.Vendor run
+INFO: Vendor 3 added 5 tickets.
+Dec 12, 2024 7:15:57 AM com.Ticketing.System.Model.TicketPool removeTicket
+INFO: TICKET REMOVED :- Ticket(ticketID=null, ticketNumber=52, ticketName=Movie ticket, ticketType=VIP, ticketStatus=available, ticketPrice=5.55). Available number of tickets :- 188
+Dec 12, 2024 7:15:57 AM com.Ticketing.System.Model.TicketPool removeTicket
+INFO: TICKET REMOVED :- Ticket(ticketID=null, ticketNumber=53, ticketName=Movie ticket, ticketType=VIP, ticketStatus=available, ticketPrice=5.55). Available number of tickets :- 187
+Dec 12, 2024 7:15:57 AM com.Ticketing.System.Model.TicketPool removeTicket
+INFO: TICKET REMOVED :- Ticket(ticketID=null, ticketNumber=54, ticketName=Movie ticket, ticketType=VIP, ticketStatus=available, ticketPrice=5.55). Available number of tickets :- 186
+Dec 12, 2024 7:15:57 AM com.Ticketing.System.Model.Customer run
+INFO: Customer 1buy 3 tickets 
+Dec 12, 2024 7:15:57 AM com.Ticketing.System.Model.TicketPool addTickets
+INFO: ADDED NUMBER OF TICKETS :-  5 TICKETS. NOW POOL SIZE :- 191
+Dec 12, 2024 7:15:57 AM com.Ticketing.System.Model.Vendor run
+INFO: Vendor 4 added 5 tickets.
+Dec 12, 2024 7:15:57 AM com.Ticketing.System.Model.TicketPool addTickets
+INFO: ADDED NUMBER OF TICKETS :-  5 TICKETS. NOW POOL SIZE :- 196
+Dec 12, 2024 7:15:57 AM com.Ticketing.System.Model.Vendor run
+INFO: Vendor 2 added 5 tickets.
+Dec 12, 2024 7:15:58 AM com.Ticketing.System.Model.TicketPool addTickets
+INFO: ADDED NUMBER OF TICKETS :-  5 TICKETS. NOW POOL SIZE :- 201
+Dec 12, 2024 7:15:58 AM com.Ticketing.System.Model.Vendor run
+INFO: Vendor 1 added 5 tickets.
+Dec 12, 2024 7:15:58 AM com.Ticketing.System.Model.TicketPool addTickets
+INFO: ADDED NUMBER OF TICKETS :-  5 TICKETS. NOW POOL SIZE :- 206
+Dec 12, 2024 7:15:58 AM com.Ticketing.System.Model.Vendor run
+INFO: Vendor 5 added 5 tickets.
+Dec 12, 2024 7:15:58 AM com.Ticketing.System.Model.TicketPool removeTicket
+INFO: TICKET REMOVED :- Ticket(ticketID=null, ticketNumber=55, ticketName=Movie ticket, ticketType=VIP, ticketStatus=available, ticketPrice=5.55). Available number of tickets :- 205
+Dec 12, 2024 7:15:58 AM com.Ticketing.System.Model.TicketPool removeTicket
+INFO: TICKET REMOVED :- Ticket(ticketID=null, ticketNumber=56, ticketName=Movie ticket, ticketType=VIP, ticketStatus=available, ticketPrice=5.55). Available number of tickets :- 204
+Dec 12, 2024 7:15:58 AM com.Ticketing.System.Model.TicketPool removeTicket
+INFO: TICKET REMOVED :- Ticket(ticketID=null, ticketNumber=57, ticketName=Movie ticket, ticketType=VIP, ticketStatus=available, ticketPrice=5.55). Available number of tickets :- 203
+Dec 12, 2024 7:15:58 AM com.Ticketing.System.Model.TicketPool removeTicket
+INFO: TICKET REMOVED :- Ticket(ticketID=null, ticketNumber=58, ticketName=Movie ticket, ticketType=VIP, ticketStatus=available, ticketPrice=5.55). Available number of tickets :- 202
+Dec 12, 2024 7:15:58 AM com.Ticketing.System.Model.TicketPool removeTicket
+INFO: TICKET REMOVED :- Ticket(ticketID=null, ticketNumber=59, ticketName=Movie ticket, ticketType=VIP, ticketStatus=available, ticketPrice=5.55). Available number of tickets :- 201
+Dec 12, 2024 7:15:58 AM com.Ticketing.System.Model.Customer run
+INFO: Customer 2buy 3 tickets 
+Dec 12, 2024 7:15:58 AM com.Ticketing.System.Model.TicketPool removeTicket
+INFO: TICKET REMOVED :- Ticket(ticketID=null, ticketNumber=60, ticketName=Movie ticket, ticketType=VIP, ticketStatus=available, ticketPrice=5.55). Available number of tickets :- 200
+Dec 12, 2024 7:15:58 AM com.Ticketing.System.Model.Customer run
+INFO: Customer 3buy 3 tickets 
+Dec 12, 2024 7:15:58 AM com.Ticketing.System.Model.TicketPool addTickets
+INFO: ADDED NUMBER OF TICKETS :-  5 TICKETS. NOW POOL SIZE :- 205
+Dec 12, 2024 7:15:58 AM com.Ticketing.System.Model.Vendor run
+INFO: Vendor 3 added 5 tickets.
+Dec 12, 2024 7:15:58 AM com.Ticketing.System.Model.TicketPool removeTicket
+INFO: TICKET REMOVED :- Ticket(ticketID=null, ticketNumber=61, ticketName=Movie ticket, ticketType=VIP, ticketStatus=available, ticketPrice=5.55). Available number of tickets :- 204
+Dec 12, 2024 7:15:58 AM com.Ticketing.System.Model.TicketPool removeTicket
+INFO: TICKET REMOVED :- Ticket(ticketID=null, ticketNumber=62, ticketName=Movie ticket, ticketType=VIP, ticketStatus=available, ticketPrice=5.55). Available number of tickets :- 203
+Dec 12, 2024 7:15:58 AM com.Ticketing.System.Model.TicketPool removeTicket
+INFO: TICKET REMOVED :- Ticket(ticketID=null, ticketNumber=63, ticketName=Movie ticket, ticketType=VIP, ticketStatus=available, ticketPrice=5.55). Available number of tickets :- 202
+Dec 12, 2024 7:15:58 AM com.Ticketing.System.Model.Customer run
+INFO: Customer 1buy 3 tickets 
+Dec 12, 2024 7:15:58 AM com.Ticketing.System.Model.TicketPool addTickets
+INFO: ADDED NUMBER OF TICKETS :-  5 TICKETS. NOW POOL SIZE :- 207
+Dec 12, 2024 7:15:58 AM com.Ticketing.System.Model.TicketPool addTickets
+INFO: ADDED NUMBER OF TICKETS :-  5 TICKETS. NOW POOL SIZE :- 212
+Dec 12, 2024 7:15:58 AM com.Ticketing.System.Model.Vendor run
+INFO: Vendor 2 added 5 tickets.
+Dec 12, 2024 7:15:58 AM com.Ticketing.System.Model.Vendor run
+INFO: Vendor 4 added 5 tickets.
+Dec 12, 2024 7:15:59 AM com.Ticketing.System.Model.TicketPool addTickets
+INFO: ADDED NUMBER OF TICKETS :-  5 TICKETS. NOW POOL SIZE :- 217
+Dec 12, 2024 7:15:59 AM com.Ticketing.System.Model.Vendor run
+INFO: Vendor 5 added 5 tickets.
+Dec 12, 2024 7:15:59 AM com.Ticketing.System.Model.TicketPool addTickets
+INFO: ADDED NUMBER OF TICKETS :-  5 TICKETS. NOW POOL SIZE :- 222
+Dec 12, 2024 7:15:59 AM com.Ticketing.System.Model.Vendor run
+INFO: Vendor 1 added 5 tickets.
+Dec 12, 2024 7:15:59 AM com.Ticketing.System.Model.TicketPool removeTicket
+INFO: TICKET REMOVED :- Ticket(ticketID=null, ticketNumber=64, ticketName=Movie ticket, ticketType=VIP, ticketStatus=available, ticketPrice=5.55). Available number of tickets :- 221
+Dec 12, 2024 7:15:59 AM com.Ticketing.System.Model.TicketPool removeTicket
+INFO: TICKET REMOVED :- Ticket(ticketID=null, ticketNumber=65, ticketName=Movie ticket, ticketType=VIP, ticketStatus=available, ticketPrice=5.55). Available number of tickets :- 220
+Dec 12, 2024 7:15:59 AM com.Ticketing.System.Model.TicketPool removeTicket
+INFO: TICKET REMOVED :- Ticket(ticketID=null, ticketNumber=66, ticketName=Movie ticket, ticketType=VIP, ticketStatus=available, ticketPrice=5.55). Available number of tickets :- 219
+Dec 12, 2024 7:15:59 AM com.Ticketing.System.Model.Customer run
+INFO: Customer 2buy 3 tickets 
+Dec 12, 2024 7:15:59 AM com.Ticketing.System.Model.TicketPool removeTicket
+INFO: TICKET REMOVED :- Ticket(ticketID=null, ticketNumber=67, ticketName=Movie ticket, ticketType=VIP, ticketStatus=available, ticketPrice=5.55). Available number of tickets :- 218
+Dec 12, 2024 7:15:59 AM com.Ticketing.System.Model.TicketPool removeTicket
+INFO: TICKET REMOVED :- Ticket(ticketID=null, ticketNumber=68, ticketName=Movie ticket, ticketType=VIP, ticketStatus=available, ticketPrice=5.55). Available number of tickets :- 217
+Dec 12, 2024 7:15:59 AM com.Ticketing.System.Model.TicketPool removeTicket
+INFO: TICKET REMOVED :- Ticket(ticketID=null, ticketNumber=69, ticketName=Movie ticket, ticketType=VIP, ticketStatus=available, ticketPrice=5.55). Available number of tickets :- 216
+Dec 12, 2024 7:15:59 AM com.Ticketing.System.Model.Customer run
+INFO: Customer 3buy 3 tickets 
+Dec 12, 2024 7:15:59 AM com.Ticketing.System.Model.TicketPool removeTicket
+INFO: TICKET REMOVED :- Ticket(ticketID=null, ticketNumber=70, ticketName=Movie ticket, ticketType=VIP, ticketStatus=available, ticketPrice=5.55). Available number of tickets :- 215
+Dec 12, 2024 7:15:59 AM com.Ticketing.System.Model.TicketPool removeTicket
+INFO: TICKET REMOVED :- Ticket(ticketID=null, ticketNumber=71, ticketName=Movie ticket, ticketType=VIP, ticketStatus=available, ticketPrice=5.55). Available number of tickets :- 214
+Dec 12, 2024 7:15:59 AM com.Ticketing.System.Model.TicketPool removeTicket
+INFO: TICKET REMOVED :- Ticket(ticketID=null, ticketNumber=72, ticketName=Movie ticket, ticketType=VIP, ticketStatus=available, ticketPrice=5.55). Available number of tickets :- 213
+Dec 12, 2024 7:15:59 AM com.Ticketing.System.Model.Customer run
+INFO: Customer 1buy 3 tickets 
+Dec 12, 2024 7:15:59 AM com.Ticketing.System.Model.TicketPool addTickets
+INFO: ADDED NUMBER OF TICKETS :-  5 TICKETS. NOW POOL SIZE :- 218
+Dec 12, 2024 7:15:59 AM com.Ticketing.System.Model.Vendor run
+INFO: Vendor 3 added 5 tickets.
+Dec 12, 2024 7:15:59 AM com.Ticketing.System.Model.TicketPool addTickets
+INFO: ADDED NUMBER OF TICKETS :-  5 TICKETS. NOW POOL SIZE :- 223
+Dec 12, 2024 7:15:59 AM com.Ticketing.System.Model.Vendor run
+INFO: Vendor 2 added 5 tickets.
+Dec 12, 2024 7:15:59 AM com.Ticketing.System.Model.TicketPool addTickets
+INFO: ADDED NUMBER OF TICKETS :-  5 TICKETS. NOW POOL SIZE :- 228
+Dec 12, 2024 7:15:59 AM com.Ticketing.System.Model.Vendor run
+INFO: Vendor 4 added 5 tickets.
+Dec 12, 2024 7:16:00 AM com.Ticketing.System.Model.TicketPool addTickets
+INFO: ADDED NUMBER OF TICKETS :-  5 TICKETS. NOW POOL SIZE :- 233
+Dec 12, 2024 7:16:00 AM com.Ticketing.System.Model.TicketPool addTickets
+INFO: ADDED NUMBER OF TICKETS :-  5 TICKETS. NOW POOL SIZE :- 238
+Dec 12, 2024 7:16:00 AM com.Ticketing.System.Model.Vendor run
+INFO: Vendor 1 added 5 tickets.
+Dec 12, 2024 7:16:00 AM com.Ticketing.System.Model.Vendor run
+INFO: Vendor 5 added 5 tickets.
+Dec 12, 2024 7:16:00 AM com.Ticketing.System.Model.TicketPool removeTicket
+INFO: TICKET REMOVED :- Ticket(ticketID=null, ticketNumber=73, ticketName=Movie ticket, ticketType=VIP, ticketStatus=available, ticketPrice=5.55). Available number of tickets :- 237
+Dec 12, 2024 7:16:00 AM com.Ticketing.System.Model.TicketPool removeTicket
+INFO: TICKET REMOVED :- Ticket(ticketID=null, ticketNumber=74, ticketName=Movie ticket, ticketType=VIP, ticketStatus=available, ticketPrice=5.55). Available number of tickets :- 236
+Dec 12, 2024 7:16:00 AM com.Ticketing.System.Model.TicketPool removeTicket
+INFO: TICKET REMOVED :- Ticket(ticketID=null, ticketNumber=75, ticketName=Movie ticket, ticketType=VIP, ticketStatus=available, ticketPrice=5.55). Available number of tickets :- 235
+Dec 12, 2024 7:16:00 AM com.Ticketing.System.Model.TicketPool removeTicket
+INFO: TICKET REMOVED :- Ticket(ticketID=null, ticketNumber=76, ticketName=Movie ticket, ticketType=VIP, ticketStatus=available, ticketPrice=5.55). Available number of tickets :- 234
+Dec 12, 2024 7:16:00 AM com.Ticketing.System.Model.Customer run
+INFO: Customer 2buy 3 tickets 
+Dec 12, 2024 7:16:00 AM com.Ticketing.System.Model.TicketPool removeTicket
+INFO: TICKET REMOVED :- Ticket(ticketID=null, ticketNumber=77, ticketName=Movie ticket, ticketType=VIP, ticketStatus=available, ticketPrice=5.55). Available number of tickets :- 233
+Dec 12, 2024 7:16:00 AM com.Ticketing.System.Model.TicketPool removeTicket
+INFO: TICKET REMOVED :- Ticket(ticketID=null, ticketNumber=78, ticketName=Movie ticket, ticketType=VIP, ticketStatus=available, ticketPrice=5.55). Available number of tickets :- 232
+Dec 12, 2024 7:16:00 AM com.Ticketing.System.Model.Customer run
+INFO: Customer 3buy 3 tickets 
+Dec 12, 2024 7:16:00 AM com.Ticketing.System.Model.TicketPool addTickets
+INFO: ADDED NUMBER OF TICKETS :-  5 TICKETS. NOW POOL SIZE :- 237
+Dec 12, 2024 7:16:00 AM com.Ticketing.System.Model.Vendor run
+INFO: Vendor 3 added 5 tickets.
+Dec 12, 2024 7:16:00 AM com.Ticketing.System.Model.TicketPool removeTicket
+INFO: TICKET REMOVED :- Ticket(ticketID=null, ticketNumber=79, ticketName=Movie ticket, ticketType=VIP, ticketStatus=available, ticketPrice=5.55). Available number of tickets :- 236
+Dec 12, 2024 7:16:00 AM com.Ticketing.System.Model.TicketPool removeTicket
+INFO: TICKET REMOVED :- Ticket(ticketID=null, ticketNumber=80, ticketName=Movie ticket, ticketType=VIP, ticketStatus=available, ticketPrice=5.55). Available number of tickets :- 235
+Dec 12, 2024 7:16:00 AM com.Ticketing.System.Model.TicketPool removeTicket
+INFO: TICKET REMOVED :- Ticket(ticketID=null, ticketNumber=81, ticketName=Movie ticket, ticketType=VIP, ticketStatus=available, ticketPrice=5.55). Available number of tickets :- 234
+Dec 12, 2024 7:16:00 AM com.Ticketing.System.Model.Customer run
+INFO: Customer 1buy 3 tickets 
+Dec 12, 2024 7:16:00 AM com.Ticketing.System.Model.TicketPool addTickets
+INFO: ADDED NUMBER OF TICKETS :-  5 TICKETS. NOW POOL SIZE :- 239
+Dec 12, 2024 7:16:00 AM com.Ticketing.System.Model.Vendor run
+INFO: Vendor 4 added 5 tickets.
+Dec 12, 2024 7:16:00 AM com.Ticketing.System.Model.TicketPool addTickets
+INFO: ADDED NUMBER OF TICKETS :-  5 TICKETS. NOW POOL SIZE :- 244
+Dec 12, 2024 7:16:00 AM com.Ticketing.System.Model.Vendor run
+INFO: Vendor 2 added 5 tickets.
+Dec 12, 2024 7:16:01 AM com.Ticketing.System.Model.TicketPool addTickets
+INFO: ADDED NUMBER OF TICKETS :-  5 TICKETS. NOW POOL SIZE :- 249
+Dec 12, 2024 7:16:01 AM com.Ticketing.System.Model.Vendor run
+INFO: Vendor 1 added 5 tickets.
+Dec 12, 2024 7:16:01 AM com.Ticketing.System.Model.TicketPool addTickets
+INFO: ADDED NUMBER OF TICKETS :-  5 TICKETS. NOW POOL SIZE :- 254
+Dec 12, 2024 7:16:01 AM com.Ticketing.System.Model.Vendor run
+INFO: Vendor 5 added 5 tickets.
+Dec 12, 2024 7:16:01 AM com.Ticketing.System.Model.TicketPool removeTicket
+INFO: TICKET REMOVED :- Ticket(ticketID=null, ticketNumber=82, ticketName=Movie ticket, ticketType=VIP, ticketStatus=available, ticketPrice=5.55). Available number of tickets :- 253
+Dec 12, 2024 7:16:01 AM com.Ticketing.System.Model.TicketPool removeTicket
+INFO: TICKET REMOVED :- Ticket(ticketID=null, ticketNumber=83, ticketName=Movie ticket, ticketType=VIP, ticketStatus=available, ticketPrice=5.55). Available number of tickets :- 252
+Dec 12, 2024 7:16:01 AM com.Ticketing.System.Model.TicketPool removeTicket
+INFO: TICKET REMOVED :- Ticket(ticketID=null, ticketNumber=84, ticketName=Movie ticket, ticketType=VIP, ticketStatus=available, ticketPrice=5.55). Available number of tickets :- 251
+Dec 12, 2024 7:16:01 AM com.Ticketing.System.Model.TicketPool removeTicket
+INFO: TICKET REMOVED :- Ticket(ticketID=null, ticketNumber=85, ticketName=Movie ticket, ticketType=VIP, ticketStatus=available, ticketPrice=5.55). Available number of tickets :- 250
+Dec 12, 2024 7:16:01 AM com.Ticketing.System.Model.Customer run
+INFO: Customer 2buy 3 tickets 
+Dec 12, 2024 7:16:01 AM com.Ticketing.System.Model.TicketPool removeTicket
+INFO: TICKET REMOVED :- Ticket(ticketID=null, ticketNumber=86, ticketName=Movie ticket, ticketType=VIP, ticketStatus=available, ticketPrice=5.55). Available number of tickets :- 249
+Dec 12, 2024 7:16:01 AM com.Ticketing.System.Model.TicketPool removeTicket
+INFO: TICKET REMOVED :- Ticket(ticketID=null, ticketNumber=87, ticketName=Movie ticket, ticketType=VIP, ticketStatus=available, ticketPrice=5.55). Available number of tickets :- 248
+Dec 12, 2024 7:16:01 AM com.Ticketing.System.Model.Customer run
+INFO: Customer 3buy 3 tickets 
+Dec 12, 2024 7:16:01 AM com.Ticketing.System.Model.TicketPool removeTicket
+INFO: TICKET REMOVED :- Ticket(ticketID=null, ticketNumber=88, ticketName=Movie ticket, ticketType=VIP, ticketStatus=available, ticketPrice=5.55). Available number of tickets :- 247
+Dec 12, 2024 7:16:01 AM com.Ticketing.System.Model.TicketPool removeTicket
+INFO: TICKET REMOVED :- Ticket(ticketID=null, ticketNumber=89, ticketName=Movie ticket, ticketType=VIP, ticketStatus=available, ticketPrice=5.55). Available number of tickets :- 246
+Dec 12, 2024 7:16:01 AM com.Ticketing.System.Model.TicketPool removeTicket
+INFO: TICKET REMOVED :- Ticket(ticketID=null, ticketNumber=90, ticketName=Movie ticket, ticketType=VIP, ticketStatus=available, ticketPrice=5.55). Available number of tickets :- 245
+Dec 12, 2024 7:16:01 AM com.Ticketing.System.Model.Customer run
+INFO: Customer 1buy 3 tickets 
+Dec 12, 2024 7:16:01 AM com.Ticketing.System.Model.TicketPool addTickets
+INFO: ADDED NUMBER OF TICKETS :-  5 TICKETS. NOW POOL SIZE :- 250
+Dec 12, 2024 7:16:01 AM com.Ticketing.System.Model.Vendor run
+INFO: Vendor 3 added 5 tickets.
+Dec 12, 2024 7:16:01 AM com.Ticketing.System.Model.TicketPool addTickets
+INFO: ADDED NUMBER OF TICKETS :-  5 TICKETS. NOW POOL SIZE :- 255
+Dec 12, 2024 7:16:01 AM com.Ticketing.System.Model.Vendor run
+INFO: Vendor 2 added 5 tickets.
+Dec 12, 2024 7:16:01 AM com.Ticketing.System.Model.TicketPool addTickets
+INFO: ADDED NUMBER OF TICKETS :-  5 TICKETS. NOW POOL SIZE :- 260
+Dec 12, 2024 7:16:01 AM com.Ticketing.System.Model.Vendor run
+INFO: Vendor 4 added 5 tickets.
+Dec 12, 2024 7:16:02 AM com.Ticketing.System.Model.TicketPool addTickets
+INFO: ADDED NUMBER OF TICKETS :-  5 TICKETS. NOW POOL SIZE :- 265
+Dec 12, 2024 7:16:02 AM com.Ticketing.System.Model.Vendor run
+INFO: Vendor 1 added 5 tickets.
+Dec 12, 2024 7:16:02 AM com.Ticketing.System.Model.TicketPool addTickets
+INFO: ADDED NUMBER OF TICKETS :-  5 TICKETS. NOW POOL SIZE :- 270
+Dec 12, 2024 7:16:02 AM com.Ticketing.System.Model.Vendor run
+INFO: Vendor 5 added 5 tickets.
+Dec 12, 2024 7:16:02 AM com.Ticketing.System.Model.TicketPool removeTicket
+INFO: TICKET REMOVED :- Ticket(ticketID=null, ticketNumber=91, ticketName=Movie ticket, ticketType=VIP, ticketStatus=available, ticketPrice=5.55). Available number of tickets :- 269
+Dec 12, 2024 7:16:02 AM com.Ticketing.System.Model.TicketPool removeTicket
+INFO: TICKET REMOVED :- Ticket(ticketID=null, ticketNumber=92, ticketName=Movie ticket, ticketType=VIP, ticketStatus=available, ticketPrice=5.55). Available number of tickets :- 268
+Dec 12, 2024 7:16:02 AM com.Ticketing.System.Model.TicketPool removeTicket
+INFO: TICKET REMOVED :- Ticket(ticketID=null, ticketNumber=93, ticketName=Movie ticket, ticketType=VIP, ticketStatus=available, ticketPrice=5.55). Available number of tickets :- 267
+Dec 12, 2024 7:16:02 AM com.Ticketing.System.Model.Customer run
+INFO: Customer 2buy 3 tickets 
+Dec 12, 2024 7:16:02 AM com.Ticketing.System.Model.TicketPool addTickets
+INFO: ADDED NUMBER OF TICKETS :-  5 TICKETS. NOW POOL SIZE :- 272
+Dec 12, 2024 7:16:02 AM com.Ticketing.System.Model.Vendor run
+INFO: Vendor 3 added 5 tickets.
+Dec 12, 2024 7:16:02 AM com.Ticketing.System.Model.TicketPool removeTicket
+INFO: TICKET REMOVED :- Ticket(ticketID=null, ticketNumber=94, ticketName=Movie ticket, ticketType=VIP, ticketStatus=available, ticketPrice=5.55). Available number of tickets :- 271
+Dec 12, 2024 7:16:02 AM com.Ticketing.System.Model.TicketPool removeTicket
+INFO: TICKET REMOVED :- Ticket(ticketID=null, ticketNumber=95, ticketName=Movie ticket, ticketType=VIP, ticketStatus=available, ticketPrice=5.55). Available number of tickets :- 270
+Dec 12, 2024 7:16:02 AM com.Ticketing.System.Model.TicketPool removeTicket
+INFO: TICKET REMOVED :- Ticket(ticketID=null, ticketNumber=96, ticketName=Movie ticket, ticketType=VIP, ticketStatus=available, ticketPrice=5.55). Available number of tickets :- 269
+Dec 12, 2024 7:16:02 AM com.Ticketing.System.Model.Customer run
+INFO: Customer 3buy 3 tickets 
+Dec 12, 2024 7:16:02 AM com.Ticketing.System.Model.TicketPool removeTicket
+INFO: TICKET REMOVED :- Ticket(ticketID=null, ticketNumber=97, ticketName=Movie ticket, ticketType=VIP, ticketStatus=available, ticketPrice=5.55). Available number of tickets :- 268
+Dec 12, 2024 7:16:02 AM com.Ticketing.System.Model.TicketPool removeTicket
+INFO: TICKET REMOVED :- Ticket(ticketID=null, ticketNumber=98, ticketName=Movie ticket, ticketType=VIP, ticketStatus=available, ticketPrice=5.55). Available number of tickets :- 267
+Dec 12, 2024 7:16:02 AM com.Ticketing.System.Model.TicketPool removeTicket
+INFO: TICKET REMOVED :- Ticket(ticketID=null, ticketNumber=99, ticketName=Movie ticket, ticketType=VIP, ticketStatus=available, ticketPrice=5.55). Available number of tickets :- 266
+Dec 12, 2024 7:16:02 AM com.Ticketing.System.Model.Customer run
+INFO: Customer 1buy 3 tickets 
+Dec 12, 2024 7:16:02 AM com.Ticketing.System.Model.TicketPool addTickets
+INFO: ADDED NUMBER OF TICKETS :-  5 TICKETS. NOW POOL SIZE :- 271
+Dec 12, 2024 7:16:02 AM com.Ticketing.System.Model.Vendor run
+INFO: Vendor 2 added 5 tickets.
+Dec 12, 2024 7:16:02 AM com.Ticketing.System.Model.TicketPool addTickets
+INFO: ADDED NUMBER OF TICKETS :-  5 TICKETS. NOW POOL SIZE :- 276
+Dec 12, 2024 7:16:02 AM com.Ticketing.System.Model.Vendor run
+INFO: Vendor 4 added 5 tickets.
+Dec 12, 2024 7:16:03 AM com.Ticketing.System.Model.TicketPool addTickets
+INFO: ADDED NUMBER OF TICKETS :-  5 TICKETS. NOW POOL SIZE :- 281
+Dec 12, 2024 7:16:03 AM com.Ticketing.System.Model.Vendor run
+INFO: Vendor 5 added 5 tickets.
+Dec 12, 2024 7:16:03 AM com.Ticketing.System.Model.TicketPool addTickets
+INFO: ADDED NUMBER OF TICKETS :-  5 TICKETS. NOW POOL SIZE :- 286
+Dec 12, 2024 7:16:03 AM com.Ticketing.System.Model.Vendor run
+INFO: Vendor 1 added 5 tickets.
+Dec 12, 2024 7:16:03 AM com.Ticketing.System.Model.TicketPool removeTicket
+INFO: TICKET REMOVED :- Ticket(ticketID=null, ticketNumber=100, ticketName=Movie ticket, ticketType=VIP, ticketStatus=available, ticketPrice=5.55). Available number of tickets :- 285
+Dec 12, 2024 7:16:03 AM com.Ticketing.System.Model.TicketPool removeTicket
+INFO: TICKET REMOVED :- Ticket(ticketID=null, ticketNumber=101, ticketName=Movie ticket, ticketType=VIP, ticketStatus=available, ticketPrice=5.55). Available number of tickets :- 284
+Dec 12, 2024 7:16:03 AM com.Ticketing.System.Model.TicketPool removeTicket
+INFO: TICKET REMOVED :- Ticket(ticketID=null, ticketNumber=102, ticketName=Movie ticket, ticketType=VIP, ticketStatus=available, ticketPrice=5.55). Available number of tickets :- 283
+Dec 12, 2024 7:16:03 AM com.Ticketing.System.Model.Customer run
+INFO: Customer 2buy 3 tickets 
+Dec 12, 2024 7:16:03 AM com.Ticketing.System.Model.TicketPool addTickets
+INFO: ADDED NUMBER OF TICKETS :-  5 TICKETS. NOW POOL SIZE :- 288
+Dec 12, 2024 7:16:03 AM com.Ticketing.System.Model.Vendor run
+INFO: Vendor 3 added 5 tickets.
+Dec 12, 2024 7:16:03 AM com.Ticketing.System.Model.TicketPool removeTicket
+INFO: TICKET REMOVED :- Ticket(ticketID=null, ticketNumber=103, ticketName=Movie ticket, ticketType=VIP, ticketStatus=available, ticketPrice=5.55). Available number of tickets :- 287
+Dec 12, 2024 7:16:03 AM com.Ticketing.System.Model.TicketPool removeTicket
+INFO: TICKET REMOVED :- Ticket(ticketID=null, ticketNumber=104, ticketName=Movie ticket, ticketType=VIP, ticketStatus=available, ticketPrice=5.55). Available number of tickets :- 286
+Dec 12, 2024 7:16:03 AM com.Ticketing.System.Model.TicketPool removeTicket
+INFO: TICKET REMOVED :- Ticket(ticketID=null, ticketNumber=105, ticketName=Movie ticket, ticketType=VIP, ticketStatus=available, ticketPrice=5.55). Available number of tickets :- 285
+Dec 12, 2024 7:16:03 AM com.Ticketing.System.Model.Customer run
+INFO: Customer 3buy 3 tickets 
+Dec 12, 2024 7:16:03 AM com.Ticketing.System.Model.TicketPool removeTicket
+INFO: TICKET REMOVED :- Ticket(ticketID=null, ticketNumber=106, ticketName=Movie ticket, ticketType=VIP, ticketStatus=available, ticketPrice=5.55). Available number of tickets :- 284
+Dec 12, 2024 7:16:03 AM com.Ticketing.System.Model.TicketPool removeTicket
+INFO: TICKET REMOVED :- Ticket(ticketID=null, ticketNumber=107, ticketName=Movie ticket, ticketType=VIP, ticketStatus=available, ticketPrice=5.55). Available number of tickets :- 283
+Dec 12, 2024 7:16:03 AM com.Ticketing.System.Model.TicketPool removeTicket
+INFO: TICKET REMOVED :- Ticket(ticketID=null, ticketNumber=108, ticketName=Movie ticket, ticketType=VIP, ticketStatus=available, ticketPrice=5.55). Available number of tickets :- 282
+Dec 12, 2024 7:16:03 AM com.Ticketing.System.Model.Customer run
+INFO: Customer 1buy 3 tickets 
+Dec 12, 2024 7:16:03 AM com.Ticketing.System.Model.TicketPool addTickets
+INFO: ADDED NUMBER OF TICKETS :-  5 TICKETS. NOW POOL SIZE :- 287
+Dec 12, 2024 7:16:03 AM com.Ticketing.System.Model.Vendor run
+INFO: Vendor 2 added 5 tickets.
+Dec 12, 2024 7:16:03 AM com.Ticketing.System.Model.TicketPool addTickets
+INFO: ADDED NUMBER OF TICKETS :-  5 TICKETS. NOW POOL SIZE :- 292
+Dec 12, 2024 7:16:03 AM com.Ticketing.System.Model.Vendor run
+INFO: Vendor 4 added 5 tickets.
+Dec 12, 2024 7:16:03 AM com.Ticketing.System.Model.Vendor run
+INFO: Vendor 4 interrupted.
+Dec 12, 2024 7:16:03 AM com.Ticketing.System.Model.Vendor run
+INFO: Vendor 2 interrupted.
+Dec 12, 2024 7:16:03 AM com.Ticketing.System.Model.Vendor run
+INFO: Vendor 3 interrupted.
+Dec 12, 2024 7:16:03 AM com.Ticketing.System.Model.Customer run
+INFO: Customer 2 interrupted.
+Dec 12, 2024 7:16:03 AM com.Ticketing.System.Model.Customer run
+INFO: Customer 1 interrupted.
+Dec 12, 2024 7:16:03 AM com.Ticketing.System.Model.Customer run
+INFO: Customer 3 interrupted.
+Dec 12, 2024 7:16:03 AM com.Ticketing.System.Model.Vendor run
+INFO: Vendor 5 interrupted.
+Dec 12, 2024 7:16:03 AM com.Ticketing.System.Model.Vendor run
+INFO: Vendor 1 interrupted.

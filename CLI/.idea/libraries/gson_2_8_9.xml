@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="gson-2.8.9">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/Ticket_Booking_System_CLI - Copy - Copy/lib/gson-2.8.9.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

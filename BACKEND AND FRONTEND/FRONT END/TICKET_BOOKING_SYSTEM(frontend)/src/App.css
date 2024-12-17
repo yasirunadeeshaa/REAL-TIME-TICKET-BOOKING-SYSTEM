@@ -1,0 +1,344 @@
+/*footerrrrrrrr*/
+.footer-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 2600px;
+  margin: auto;
+  height: 150px;
+  margin-top: 110px;
+  background-color: #0f7886;
+}  
+
+.footer-section {
+  flex: 1;
+  min-width: 340px;
+  margin: 50px;
+}
+
+.footer-section h2 {
+  font-size: 18px;
+  color: #074349;
+  margin-bottom: 15px;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bold;
+} 
+.footer-section p,
+.footer-section ul {
+  font-size: 14px;
+  line-height: 1.2;
+  font-weight: bold;
+  font-family: 'Times New Roman', Times, serif;
+  justify-self: start;
+  display:flex;
+  margin: 0px;
+} 
+.footer-section ul {
+  list-style: none;
+  padding: 0px;
+}
+.footer-section ul li {
+  margin-bottom: 4px;
+  display:flex;
+  padding: 15px;
+}
+
+.footer-section ul li a {
+  color: #092b9c;
+  text-decoration: none;
+  transition: color 0.3s ease;
+  padding: 5px;
+
+}
+.footer-section ul li a:hover {
+  color: #034b55;
+}
+.social{
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 10%;
+  font-weight: bold;
+  padding-bottom: 5px;
+  background-color: #d4dee4;
+  
+}
+.socialicons a {
+  font-size: 20px;
+  margin-right: px;
+  padding: 8px;
+  transition: color 0.3s ease;
+  
+
+  
+}
+.social-icons a:hover {
+  color: #344d50;
+}
+
+/* Footer Bottom */
+.footer-bottom {
+  text-align: center;
+  margin-top: 0px;
+  font-size: 14px;
+  border-top: 2px solid #111010;
+  padding-top: 15px;
+}
+@media (max-width: 768px) {
+  .footer-content {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .footer-section {
+    margin: 20px 0;
+  }
+
+  .social-icons {
+    justify-content: center;
+  }
+}
+/*----------------------------------------------------------------------------------*/
+/* Header Styles */
+.header {
+  background: linear-gradient(45deg, #07484d, #80979b);
+  padding: 20px 20px;
+  color: white;
+  font-family: 'Arial', sans-serif;
+  box-shadow: 0px 20px 6px rgba(2, 32, 71, 0.1);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1800px;
+  margin: 0 auto;
+}
+
+/* Logo */
+.logo a {
+  color: #f1faee;
+  font-size: 24px;
+  font-weight: bold;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.logo a:hover {
+  color: #055b5e;
+}
+
+/* Navigation Menu */
+.navbar ul {
+  list-style:none;
+  display: flex;
+  margin: 0px;
+  padding: 5px;
+}
+
+.navbar ul li {
+  margin: 0 25px;
+}
+
+.navbar ul li a {
+  color: #f1faee;
+  text-decoration: none;
+  font-size: 16px;
+  position: relative;
+  transition: all 0.3s ease;
+}
+
+.navbar ul li a::after {
+  content: '';
+  display: block;
+  width: 0;
+  height: 2px;
+  background: #a8dadc;
+  transition: width 0.3s ease;
+  position: absolute;
+  bottom: -4px;
+  left: 0;
+}
+
+.navbar ul li a:hover::after {
+  width: 100%;
+}
+
+.navbar ul li a:hover {
+  color: #a8dadc;
+}
+
+/* Search Bar */
+.search-bar {
+  display: flex;
+  align-items: center;
+}
+
+.search-bar input {
+  padding: 8px;
+  border: none;
+  border-radius: 4px 0 0 4px;
+  outline: none;
+  width: 200px;
+  transition: width 0.3s ease;
+  background-color: #d0dde2;
+  box-shadow: 1px 5px 15px rgba(1, 22, 44, 0.3);
+}
+
+.search-bar input:focus {
+  width: 300px;
+}
+
+.search-bar button {
+  padding: 8px 16px;
+  background: #899494;
+  color: #1d3557;
+  border: none;
+  border-radius: 0 4px 4px 0;
+  cursor: pointer;
+  transition: background 0.3s ease;
+  box-shadow: 1px 5px 15px rgba(1, 22, 44, 0.3);
+  
+}
+
+.search-bar button:hover {
+  background: #8bc5c5;
+  color: #1d3557;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .navbar ul {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .navbar ul li {
+    margin: 10px 0;
+  }
+
+  .search-bar {
+    margin-top: 10px;
+  }
+}
+
+button:hover {
+  box-shadow: 0 0 15px rgba(0, 123, 255, 0.5);
+  background-color: #00b0f5;
+  
+}
+
+.login-button {
+  font-family: 'Arial', sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  color: #ffffff;
+  background-color: #0d5f6e;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  text-align: center;
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+}
+
+.login-button:hover {
+  background-color: #010c14;
+  
+}
+
+
+@media (max-width: 480px) {
+  .login-button {
+    font-size: 14px;
+    padding: 8px 15px;
+  }
+}
+/*==============================================================*/
+.listofcustomer{
+  font-weight: bold;
+  background-color: #415972;
+  font-family: Arial, sans-serif;
+  color: #ffffff;
+  padding: 5px;
+  margin-top: 10px;
+  border-color: #feffff;
+  border-radius: 5px;
+  font-size: 20px;
+  
+}
+/* General table styling */
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+  font-size: 16px;
+  font-family: Arial, sans-serif;
+  text-align: left;
+}
+
+/* Styling for table headers */
+.table thead {
+  background-color: #415972;
+  color: white;
+}
+
+.table th {
+  padding: 12px 15px;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-align: center;
+}
+
+/* Styling for table rows */
+.table tbody tr {
+  border-bottom: 1px solid #ddd;
+}
+
+.table tbody tr:nth-of-type(even) {
+  background-color: #f9f9f9;
+}
+
+.table tbody tr:nth-of-type(odd) {
+  background-color: #ffffff;
+}
+
+/* Styling for table cells */
+.table td {
+  padding: 12px 15px;
+  text-align: center;
+}
+
+/* Hover effect for rows */
+.table tbody tr:hover {
+  background-color: #f1f1f1;
+  cursor: pointer;
+}
+
+/* Optional: Add border to the table */
+.table-bordered {
+  border: 1px solid #ddd;
+}
+
+.table-bordered th,
+.table-bordered td {
+  border: 1px solid #ddd;
+}
+
+/* Optional: Adjust table-striped colors */
+.table-striped tbody tr:nth-of-type(even) {
+  background-color: #f7f7f7;
+}
+
+.table-striped tbody tr:nth-of-type(odd) {
+  background-color: #ffffff;
+}
+
+/* Center-align text in header */
+.text-center {
+  text-align: center;
+}
