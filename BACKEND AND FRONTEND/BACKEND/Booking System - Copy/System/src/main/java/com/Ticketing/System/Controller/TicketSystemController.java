@@ -18,16 +18,28 @@ public class TicketSystemController {
     @Autowired
     private TicketSystemService ticketSystemService;
 
-    @PostMapping("/start")
-    public ResponseEntity<?> startSystem(@RequestBody Configuration config) {
-        try {
-            config.validate();
-            ticketSystemService.startSystem(config);
-            return ResponseEntity.ok(Map.of("message", "Ticket System Started Successfully!"));
-        } catch (IllegalArgumentException e) {
-            return ResponseEntity.badRequest().body(Map.of("error", e.getMessage()));
-        }
+//    @PostMapping("/start")
+//    public ResponseEntity<?> startSystem(@RequestBody Configuration config) {
+//        try {
+//            config.validate();
+//            ticketSystemService.startSystem(config);
+//            return ResponseEntity.ok(Map.of("message", "Ticket System Started Successfully!"));
+//        } catch (IllegalArgumentException e) {
+//            return ResponseEntity.badRequest().body(Map.of("error", e.getMessage()));
+//        }
+//    }
+@PostMapping("/start")
+public ResponseEntity<?> startSystem(@RequestBody Configuration config) {
+    try {
+        System.out.println("Received Configuration: " + config);
+        config.validate();
+        ticketSystemService.startSystem(config);
+        return ResponseEntity.ok(Map.of("message", "Ticket System Started Successfully!"));
+    } catch (IllegalArgumentException e) {
+        return ResponseEntity.badRequest().body(Map.of("error", e.getMessage()));
     }
+}
+
 
     @PostMapping("/stop")
     public ResponseEntity<?> stopSystem() {

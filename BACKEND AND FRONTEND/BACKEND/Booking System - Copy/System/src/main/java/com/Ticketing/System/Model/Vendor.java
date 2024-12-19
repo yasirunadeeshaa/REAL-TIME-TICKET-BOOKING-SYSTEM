@@ -39,6 +39,14 @@ public class Vendor implements Runnable {
         this.configuration = configuration;
     }
 
+    public String getVendorPassword() {
+        return vendorPassword;
+    }
+
+    public void setVendorPassword(String vendorPassword) {
+        this.vendorPassword = vendorPassword;
+    }
+
     @Override
     public void run() {
         try {

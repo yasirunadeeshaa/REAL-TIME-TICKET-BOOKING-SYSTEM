@@ -42,6 +42,14 @@ public class Customer implements Runnable , Serializable {
         this.configuration = configuration;
     }
 
+    public String getCustomerPassword() {
+        return customerPassword;
+    }
+
+    public void setCustomerPassword(String customerPassword) {
+        this.customerPassword = customerPassword;
+    }
+
     @Override
     public void run() {
         try {

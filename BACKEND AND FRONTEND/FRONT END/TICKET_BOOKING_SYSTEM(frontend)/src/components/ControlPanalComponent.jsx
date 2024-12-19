@@ -1,14 +1,157 @@
+// import React, { useState } from "react";
+// import axios from "axios";
+
+// const ControlPanelComponent = () => {
+//   const [config, setConfig] = useState({
+//     maxTicketCapacity: "",
+//     totalTickets: "",
+//     customerTicketRetrievalRate: "",
+//     customerRetrievalInterval: "",
+//     vendorTicketReleaseRate: "",
+//     vendorReleaseInterval: "",
+//   });
+
+//   const [systemRunning, setSystemRunning] = useState(false);
+
+//   const handleInputChange = (e) => {
+//     const { name, value } = e.target;
+//     setConfig((prevConfig) => ({
+//       ...prevConfig,
+//       [name]: Number(value),
+//     }));
+//   };
+
+//   const handleSubmitConfig = async () => {
+//     try {
+//         console.log("Submitting config:", config);
+//       const response = await axios.post("http://localhost:8090/api/config/posting", config);
+//       console.log("Response from server:", response);
+//       alert("Configuration submitted successfully.");
+//     } catch (error) {
+//         console.error("Error submitting configuration:", error);
+//       alert(error.response?.data?.message||error.message || "Failed to submit configuration.");
+//     }
+//   };
+
+//   // const handleStartSystem = async () => {
+//   //   try {
+//   //     await handleSubmitConfig(); // Submit config before starting
+//   //     await axios.post("http://localhost:8090/ticketsystem/start");
+//   //     setSystemRunning(true);
+//   //     alert("System started successfully.");
+//   //   } catch (error) {
+//   //     alert(error.response?.data || "Failed to start the system.");
+//   //   }
+//   // };
+//   const handleStartSystem = async () => {
+//     try {
+      
+//         const config = {
+//           totalTickets: 100,
+//           maxTicketCapacity: 500, // Add this field
+//           vendorReleaseInterval: 1000, // Add this field
+//           vendorTicketReleaseRate: 10,
+//           customerRetrievalInterval: 1000,
+//           customerTicketRetrievalRate: 5,
+//         };
+
+//         console.log("Submitting config:", config);
+
+//         const response = await axios.post("http://localhost:8090/ticketsystem/start", config, {
+//             headers: { "Content-Type": "application/json" },
+//         });
+
+//         console.log("System started successfully:", response.data);
+//     } catch (error) {
+//         console.error("Error starting system:", error.response?.data || error.message);
+//     }
+// };
+
+//   const handleStopSystem = async () => {
+//     try {
+//       await axios.post("http://localhost:8090/ticketsystem/stop");
+//       setSystemRunning(false);
+//       alert("System stopped successfully.");
+//     } catch (error) {
+//       alert(error.response?.data || "Failed to stop the system.");
+//     }
+//   };
+
+//   return (
+//     <div className="control-panel">
+//       <h3>Control Panel</h3>
+//       <div>
+//         <h4>Configuration</h4>
+//         <input
+//           type="number"
+//           name="maxCapacity"
+//           placeholder="Max Capacity"
+//           value={config.maxCapacity}
+//           onChange={handleInputChange}
+//         />
+//         <input
+//           type="number"
+//           name="totalTickets"
+//           placeholder="Total Tickets"
+//           value={config.totalTickets}
+//           onChange={handleInputChange}
+//         />
+//         <input
+//           type="number"
+//           name="customerTicketRetrievalRate"
+//           placeholder="Customer Ticket Retrieval Rate"
+//           value={config.customerTicketRetrievalRate}
+//           onChange={handleInputChange}
+//         />
+//         <input
+//           type="number"
+//           name="customerRetrievalInterval"
+//           placeholder="Customer Retrieval Interval (ms)"
+//           value={config.customerRetrievalInterval}
+//           onChange={handleInputChange}
+//         />
+//         <input
+//           type="number"
+//           name="vendorTicketReleaseRate"
+//           placeholder="Vendor Ticket Release Rate"
+//           value={config.vendorTicketReleaseRate}
+//           onChange={handleInputChange}
+//         />
+//         <input
+//           type="number"
+//           name="vendorTicketReleaseInterval"
+//           placeholder="Vendor Ticket Release Interval (ms)"
+//           value={config.vendorTicketReleaseInterval}
+//           onChange={handleInputChange}
+//         />
+//         <div class='startstopbtn'><button class='submit' onClick={handleSubmitConfig}>
+//           Submit Configuration
+//         </button></div>
+//         <div class='startstopbtn'>
+//         <button class='startstop' onClick={handleStartSystem} disabled={systemRunning}>
+//           Start System
+//         </button>
+//         <button class='startstop' onClick={handleStopSystem} disabled={!systemRunning}>
+//           Stop System
+//         </button></div>
+//       </div>
+//     </div>
+//   );
+// };
+
+// export default ControlPanelComponent;
+
 import React, { useState } from "react";
 import axios from "axios";
 
 const ControlPanelComponent = () => {
   const [config, setConfig] = useState({
-    maxCapacity: "",
     totalTickets: "",
-    customerTicketRetrievalRate: "",
-    customerRetrievalInterval: "",
+    maxTicketCapacity: "",
+    vendorReleaseInterval: "",
     vendorTicketReleaseRate: "",
-    vendorTicketReleaseInterval: "",
+    customerRetrievalInterval: "",
+    customerTicketRetrievalRate: "",
   });
 
   const [systemRunning, setSystemRunning] = useState(false);
@@ -17,39 +160,66 @@ const ControlPanelComponent = () => {
     const { name, value } = e.target;
     setConfig((prevConfig) => ({
       ...prevConfig,
-      [name]: Number(value),
+      [name]: value, // Store values as strings temporarily
     }));
   };
 
   const handleSubmitConfig = async () => {
     try {
-        console.log("Submitting config:", config);
-      await axios.post("http://localhost:8081/api/config/posting", config);
+      const formattedConfig = {
+        totalTickets: parseInt(config.totalTickets, 10),
+        maxTicketCapacity: parseInt(config.maxTicketCapacity, 10),
+        vendorReleaseInterval: parseInt(config.vendorReleaseInterval, 10),
+        vendorTicketReleaseRate: parseInt(config.vendorTicketReleaseRate, 10),
+        customerRetrievalInterval: parseInt(config.customerRetrievalInterval, 10),
+        customerTicketRetrievalRate: parseInt(config.customerTicketRetrievalRate, 10),
+      };
+
+      console.log("Submitting config:", formattedConfig);
+
+      const response = await axios.post("http://localhost:8090/api/config/posting", formattedConfig);
+      console.log("Response from server:", response);
       alert("Configuration submitted successfully.");
     } catch (error) {
-        console.error("Error submitting configuration:", error);
-      alert(error.response?.data?.message||error.message || "Failed to submit configuration.");
+      console.error("Error submitting configuration:", error);
+      alert(error.response?.data?.message || error.message || "Failed to submit configuration.");
     }
   };
 
   const handleStartSystem = async () => {
     try {
-      await handleSubmitConfig(); // Submit config before starting
-      await axios.post("http://localhost:8081/ticketsystem/start");
+      const formattedConfig = {
+        totalTickets: parseInt(config.totalTickets, 10),
+        maxTicketCapacity: parseInt(config.maxTicketCapacity, 10),
+        vendorReleaseInterval: parseInt(config.vendorReleaseInterval, 10),
+        vendorTicketReleaseRate: parseInt(config.vendorTicketReleaseRate, 10),
+        customerRetrievalInterval: parseInt(config.customerRetrievalInterval, 10),
+        customerTicketRetrievalRate: parseInt(config.customerTicketRetrievalRate, 10),
+      };
+
+      console.log("Starting system with config:", formattedConfig);
+
+      const response = await axios.post("http://localhost:8090/ticketsystem/start", formattedConfig, {
+        headers: { "Content-Type": "application/json" },
+      });
+
+      console.log("System started successfully:", response.data);
       setSystemRunning(true);
       alert("System started successfully.");
     } catch (error) {
-      alert(error.response?.data || "Failed to start the system.");
+      console.error("Error starting system:", error.response?.data || error.message);
+      alert(error.response?.data?.message || error.message || "Failed to start the system.");
     }
   };
 
   const handleStopSystem = async () => {
     try {
-      await axios.post("http://localhost:8081/ticketsystem/stop");
+      await axios.post("http://localhost:8090/ticketsystem/stop");
       setSystemRunning(false);
       alert("System stopped successfully.");
     } catch (error) {
-      alert(error.response?.data || "Failed to stop the system.");
+      console.error("Error stopping system:", error.response?.data || error.message);
+      alert(error.response?.data?.message || error.message || "Failed to stop the system.");
     }
   };
 
@@ -60,9 +230,9 @@ const ControlPanelComponent = () => {
         <h4>Configuration</h4>
         <input
           type="number"
-          name="maxCapacity"
-          placeholder="Max Capacity"
-          value={config.maxCapacity}
+          name="maxTicketCapacity"
+          placeholder="Max Ticket Capacity"
+          value={config.maxTicketCapacity}
           onChange={handleInputChange}
         />
         <input
@@ -95,425 +265,27 @@ const ControlPanelComponent = () => {
         />
         <input
           type="number"
-          name="vendorTicketReleaseInterval"
+          name="vendorReleaseInterval"
           placeholder="Vendor Ticket Release Interval (ms)"
-          value={config.vendorTicketReleaseInterval}
+          value={config.vendorReleaseInterval}
           onChange={handleInputChange}
         />
-        <div class='startstopbtn'><button class='submit' onClick={handleSubmitConfig}>
-          Submit Configuration
-        </button></div>
-        <div class='startstopbtn'>
-        <button class='startstop' onClick={handleStartSystem} disabled={systemRunning}>
-          Start System
-        </button>
-        <button class='startstop' onClick={handleStopSystem} disabled={!systemRunning}>
-          Stop System
-        </button></div>
+        <div className="startstopbtn">
+          <button className="submit" onClick={handleSubmitConfig}>
+            Submit Configuration
+          </button>
+        </div>
+        <div className="startstopbtn">
+          <button className="startstop" onClick={handleStartSystem} disabled={systemRunning}>
+            Start System
+          </button>
+          <button className="startstop" onClick={handleStopSystem} disabled={!systemRunning}>
+            Stop System
+          </button>
+        </div>
       </div>
     </div>
   );
 };
 
 export default ControlPanelComponent;
-
-//====================================================================
-// import React, { useState } from "react";
-// import axios from "axios";
-
-// const ControlPanelComponent = () => {
-//     // State for inputs
-//     const [config, setConfig] = useState({
-//         maxCapacity: "",
-//         totalTickets: "",
-//         customerTicketRetrievalRate: "",
-//         customerRetrievalInterval: "",
-//         vendorTicketReleaseRate: "",
-//         vendorTicketReleaseInterval: "",
-//     });
-
-//     const [systemRunning, setSystemRunning] = useState(false);
-
-//     // Handle input change
-//     const handleInputChange = (e) => {
-//         const { name, value } = e.target;
-//         setConfig((prevConfig) => ({
-//             ...prevConfig,
-//             [name]: value,
-//         }));
-//     };
-
-//     // Submit configuration and start the system
-//     const handleStartSystem = async () => {
-//         try {
-//             await axios.post("http://localhost:8080/ticketsystem/start", config);
-//             setSystemRunning(true);
-//             alert("System started successfully.");
-//         } catch (error) {
-//             alert(error.response?.data || "Failed to start the system.");
-//         }
-//     };
-
-//     // Stop the system
-//     const handleStopSystem = async () => {
-//         try {
-//             await axios.post("http://localhost:8080/ticketsystem/stop");
-//             setSystemRunning(false);
-//             alert("System stopped successfully.");
-//         } catch (error) {
-//             alert(error.response?.data || "Failed to stop the system.");
-//         }
-//     };
-
-//     return (
-//         <div className="control-panel">
-//             <h3>Control Panel</h3>
-//             <div>
-//                 <h4>Configuration</h4>
-//                 <input
-//                     type="number"
-//                     name="maxCapacity"
-//                     placeholder="Max Capacity"
-//                     value={config.maxCapacity}
-//                     onChange={handleInputChange}
-//                 />
-//                 <input
-//                     type="number"
-//                     name="totalTickets"
-//                     placeholder="Total Tickets"
-//                     value={config.totalTickets}
-//                     onChange={handleInputChange}
-//                 />
-//                 <input
-//                     type="number"
-//                     name="customerTicketRetrievalRate"
-//                     placeholder="Customer Ticket Retrieval Rate"
-//                     value={config.customerTicketRetrievalRate}
-//                     onChange={handleInputChange}
-//                 />
-//                 <input
-//                     type="number"
-//                     name="customerRetrievalInterval"
-//                     placeholder="Customer Retrieval Interval (ms)"
-//                     value={config.customerRetrievalInterval}
-//                     onChange={handleInputChange}
-//                 />
-//                 <input
-//                     type="number"
-//                     name="vendorTicketReleaseRate"
-//                     placeholder="Vendor Ticket Release Rate"
-//                     value={config.vendorTicketReleaseRate}
-//                     onChange={handleInputChange}
-//                 />
-//                 <input
-//                     type="number"
-//                     name="vendorTicketReleaseInterval"
-//                     placeholder="Vendor Ticket Release Interval (ms)"
-//                     value={config.vendorTicketReleaseInterval}
-//                     onChange={handleInputChange}
-//                 />
-//                 <button onClick={handleStartSystem} disabled={systemRunning}>
-//                     Start System
-//                 </button>
-//                 <button onClick={handleStopSystem} disabled={!systemRunning}>
-//                     Stop System
-//                 </button>
-//             </div>
-//         </div>
-//     );
-// };
-
-// export default ControlPanelComponent;
-
-//-----------------------------------------------------------------------
-// import React, { useState } from "react";
-// import axios from "axios";
-
-// const ControlPanelComponent = () => {
-//     // State for inputs
-//     const [config, setConfig] = useState({
-//         maxCapacity: "",
-//         totalTickets: "",
-//         customerTicketRetrievalRate: "",
-//         customerRetrievalInterval: "",
-//         vendorTicketReleaseRate: "",
-//         vendorTicketReleaseInterval: "",
-//     });
-
-//     const [vendorRunning, setVendorRunning] = useState(false);
-//     const [customerRunning, setCustomerRunning] = useState(false);
-
-//     // Handle input change
-//     const handleInputChange = (e) => {
-//         const { name, value } = e.target;
-//         setConfig((prevConfig) => ({
-//             ...prevConfig,
-//             [name]: value,
-//         }));
-//     };
-
-//     // Submit configuration to the backend
-//     const handleSubmit = async () => {
-//         try {
-//             await axios.post("http://localhost:8080/configure", config);
-//             alert("Configuration submitted successfully.");
-//         } catch (error) {
-//             alert(error.response?.data || "Failed to submit configuration.");
-//         }
-//     };
-
-//     // Start Vendors
-//     const handleStartVendors = async () => {
-//         try {
-//             await axios.post("http://localhost:8080/vendors/start");
-//             setVendorRunning(true);
-//         } catch (error) {
-//             alert(error.response?.data || "Failed to start vendors.");
-//         }
-//     };
-
-//     // Stop Vendors
-//     const handleStopVendors = async () => {
-//         try {
-//             await axios.post("http://localhost:8080/vendors/stop");
-//             setVendorRunning(false);
-//         } catch (error) {
-//             alert(error.response?.data || "Failed to stop vendors.");
-//         }
-//     };
-
-//     // Start Customers
-//     const handleStartCustomers = async () => {
-//         try {
-//             await axios.post("http://localhost:8080/customers/start");
-//             setCustomerRunning(true);
-//         } catch (error) {
-//             alert(error.response?.data || "Failed to start customers.");
-//         }
-//     };
-
-//     // Stop Customers
-//     const handleStopCustomers = async () => {
-//         try {
-//             await axios.post("http://localhost:8080/customers/stop");
-//             setCustomerRunning(false);
-//         } catch (error) {
-//             alert(error.response?.data || "Failed to stop customers.");
-//         }
-//     };
-
-//     return (
-//         <div className="control-panel">
-//             <h3>Control Panel</h3>
-//             <div>
-//                 <h4>Configuration</h4>
-//                 <input
-//                     type="number"
-//                     name="maxCapacity"
-//                     placeholder="Max Capacity"
-//                     value={config.maxCapacity}
-//                     onChange={handleInputChange}
-//                 />
-//                 <input
-//                     type="number"
-//                     name="totalTickets"
-//                     placeholder="Total Tickets"
-//                     value={config.totalTickets}
-//                     onChange={handleInputChange}
-//                 />
-//                 <input
-//                     type="number"
-//                     name="customerTicketRetrievalRate"
-//                     placeholder="Customer Ticket Retrieval Rate"
-//                     value={config.customerTicketRetrievalRate}
-//                     onChange={handleInputChange}
-//                 />
-//                 <input
-//                     type="number"
-//                     name="customerRetrievalInterval"
-//                     placeholder="Customer Retrieval Interval (ms)"
-//                     value={config.customerRetrievalInterval}
-//                     onChange={handleInputChange}
-//                 />
-//                 <input
-//                     type="number"
-//                     name="vendorTicketReleaseRate"
-//                     placeholder="Vendor Ticket Release Rate"
-//                     value={config.vendorTicketReleaseRate}
-//                     onChange={handleInputChange}
-//                 />
-//                 <input
-//                     type="number"
-//                     name="vendorTicketReleaseInterval"
-//                     placeholder="Vendor Ticket Release Interval (ms)"
-//                     value={config.vendorTicketReleaseInterval}
-//                     onChange={handleInputChange}
-//                 />
-//                 <button onClick={handleSubmit}>Submit Configuration</button>
-//             </div>
-
-//             <div>
-//                 <h4>Vendor Controls</h4>
-//                 <button
-//                     onClick={handleStartVendors}
-//                     disabled={vendorRunning}
-//                 >
-//                     Start Vendors
-//                 </button>
-//                 <button
-//                     onClick={handleStopVendors}
-//                     disabled={!vendorRunning}
-//                 >
-//                     Stop Vendors
-//                 </button>
-//             </div>
-
-//             <div>
-//                 <h4>Customer Controls</h4>
-//                 <button
-//                     onClick={handleStartCustomers}
-//                     disabled={customerRunning}
-//                 >
-//                     Start Customers
-//                 </button>
-//                 <button
-//                     onClick={handleStopCustomers}
-//                     disabled={!customerRunning}
-//                 >
-//                     Stop Customers
-//                 </button>
-//             </div>
-//         </div>
-//     );
-// };
-
-// export default ControlPanelComponent;
-//----------------------------------------------------------------------------
-// import React, { useState } from "react";
-// import axios from "axios";
-
-// const ControlPanelComponent = () => {
-//     // State for inputs
-//     const [config, setConfig] = useState({
-//         maxCapacity: "",
-//         totalTickets: "",
-//         customerTicketRetrievalRate: "",
-//         customerRetrievalInterval: "",
-//         vendorTicketReleaseRate: "",
-//         vendorTicketReleaseInterval: "",
-//     });
-
-//     const [systemRunning, setSystemRunning] = useState(false);
-
-//     // Handle input change
-//     const handleInputChange = (e) => {
-//         const { name, value } = e.target;
-//         setConfig((prevConfig) => ({
-//             ...prevConfig,
-//             [name]: value,
-//         }));
-//     };
-
-//     // Submit configuration to the backend
-//     const handleSubmit = async () => {
-//         try {
-//             await axios.post("http://localhost:8080/configure", config);
-//             alert("Configuration submitted successfully.");
-//         } catch (error) {
-//             alert(error.response?.data || "Failed to submit configuration.");
-//         }
-//     };
-
-//     // Start the system
-//     const handleStartSystem = async () => {
-//         try {
-//             await axios.post("http://localhost:8080/vendors/start");
-//             await axios.post("http://localhost:8080/customers/start");
-//             setSystemRunning(true);
-//         } catch (error) {
-//             alert(error.response?.data || "Failed to start the system.");
-//         }
-//     };
-
-//     // Stop the system
-//     const handleStopSystem = async () => {
-//         try {
-//             await axios.post("http://localhost:8080/vendors/stop");
-//             await axios.post("http://localhost:8080/customers/stop");
-//             setSystemRunning(false);
-//         } catch (error) {
-//             alert(error.response?.data || "Failed to stop the system.");
-//         }
-//     };
-
-//     return (
-//         <div className="control-panel">
-//             <h3>Control Panel</h3>
-//             <div>
-//                 <h4>Configuration</h4>
-//                 <input
-//                     type="number"
-//                     name="maxCapacity"
-//                     placeholder="Max Capacity"
-//                     value={config.maxCapacity}
-//                     onChange={handleInputChange}
-//                 />
-//                 <input
-//                     type="number"
-//                     name="totalTickets"
-//                     placeholder="Total Tickets"
-//                     value={config.totalTickets}
-//                     onChange={handleInputChange}
-//                 />
-//                 <input
-//                     type="number"
-//                     name="customerTicketRetrievalRate"
-//                     placeholder="Customer Ticket Retrieval Rate"
-//                     value={config.customerTicketRetrievalRate}
-//                     onChange={handleInputChange}
-//                 />
-//                 <input
-//                     type="number"
-//                     name="customerRetrievalInterval"
-//                     placeholder="Customer Retrieval Interval (ms)"
-//                     value={config.customerRetrievalInterval}
-//                     onChange={handleInputChange}
-//                 />
-//                 <input
-//                     type="number"
-//                     name="vendorTicketReleaseRate"
-//                     placeholder="Vendor Ticket Release Rate"
-//                     value={config.vendorTicketReleaseRate}
-//                     onChange={handleInputChange}
-//                 />
-//                 <input
-//                     type="number"
-//                     name="vendorTicketReleaseInterval"
-//                     placeholder="Vendor Ticket Release Interval (ms)"
-//                     value={config.vendorTicketReleaseInterval}
-//                     onChange={handleInputChange}
-//                 />
-//                 <button onClick={handleSubmit}>Submit Configuration</button>
-//             </div>
-
-//             <div>
-//                 <h4>System Controls</h4>
-//                 <button
-//                     onClick={handleStartSystem}
-//                     disabled={systemRunning}
-//                 >
-//                     Start System
-//                 </button>
-//                 <button
-//                     onClick={handleStopSystem}
-//                     disabled={!systemRunning}
-//                 >
-//                     Stop System
-//                 </button>
-//             </div>
-//         </div>
-//     );
-// };
-
-// export default ControlPanelComponent;
-

@@ -108,5 +108,6 @@ public class Configuration {
         if (maxTicketCapacity < totalTickets) {
             throw new IllegalArgumentException("Max ticket capacity cannot exceed total tickets.");
         }
+
     }
 }

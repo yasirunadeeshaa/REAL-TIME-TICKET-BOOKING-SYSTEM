@@ -7,6 +7,7 @@ import org.springframework.web.bind.annotation.*;
 
 @RestController
 @RequestMapping("/api/config")
+@CrossOrigin(origins ="http://localhost:4000")
 public class ConfigurationController {
 
     private final ConfigurationService configurationService;
@@ -23,6 +24,7 @@ public class ConfigurationController {
 
     @PostMapping("/posting")
     public String updateConfiguration(@RequestBody Configuration updatedConfig) {
+        System.out.println("Received configuration: " + updatedConfig);
         configurationService.updateConfiguration(updatedConfig);
         return "Configuration updated successfully!";
     }
