@@ -13,7 +13,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 import java.util.logging.Logger;
 
-@Slf4j
+
 @RestController
 @CrossOrigin
 @RequestMapping(value="api/event/")

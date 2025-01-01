@@ -8,8 +8,8 @@ import lombok.NoArgsConstructor;
 
 @Entity
 @Data
-//@AllArgsConstructor
-//@NoArgsConstructor
+@AllArgsConstructor
+@NoArgsConstructor
 @Table(name="ticket")
 public class Ticket {
 
@@ -17,6 +17,7 @@ public class Ticket {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "ticket_ID", nullable = false)
     public Long ticketID;
+
     @Column(name = "ticket_number", nullable = false)
     private int ticketNumber;
     @Column(name = "ticket_name", nullable = false)

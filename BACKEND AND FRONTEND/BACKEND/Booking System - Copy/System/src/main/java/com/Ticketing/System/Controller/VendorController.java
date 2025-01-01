@@ -1,5 +1,6 @@
 package com.Ticketing.System.Controller;
 
+import com.Ticketing.System.DataTransferObject.LoginRequestDTO;
 import com.Ticketing.System.DataTransferObject.VendorDTO;
 import com.Ticketing.System.Model.Vendor;
 import com.Ticketing.System.Service.VendorService;
@@ -23,6 +24,11 @@ public class VendorController {
     @PostMapping("/addvendor")
     public String addVendor(@RequestBody VendorDTO vendorDTO) {
         return vendorService.saveVendor(vendorDTO);
+    }
+    // Validate vendor login
+    @PostMapping("/validate")
+    public boolean validateVendor(@RequestBody LoginRequestDTO loginRequest) {
+        return vendorService.validateVendor(loginRequest.getUsername(), loginRequest.getEmail());
     }
 
     @PutMapping ("/updatevendor")

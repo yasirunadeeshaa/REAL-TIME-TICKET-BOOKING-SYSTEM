@@ -28,6 +28,9 @@ public class VendorService {
         vendorRepository.save(modelMapper.map(vendorDTO, Vendor.class));
         return "save successfully";
     }
+    public boolean validateVendor(String username, String email) {
+        return vendorRepository.existsByVendorNameAndVendorEmail(username, email);
+    }
 
     public String updateVendor(VendorDTO vendorDTO) {
         vendorRepository.save(modelMapper.map(vendorDTO, Vendor.class));
