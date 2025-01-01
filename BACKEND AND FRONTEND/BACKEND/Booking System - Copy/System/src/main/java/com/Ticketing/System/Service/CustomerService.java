@@ -31,6 +31,10 @@ public class CustomerService {
         return "customer saved successfully";
     }
 
+    public boolean validateCustomer(String username, String email) {
+        return customerRepository.existsByCustomerNameAndCustomerEmail(username, email);
+    }
+
     public String updateCustomer(CustomerDTO customerDTO) {
         customerRepository.save(modelMapper.map(customerDTO, Customer.class));
         return "customer updated successfully";

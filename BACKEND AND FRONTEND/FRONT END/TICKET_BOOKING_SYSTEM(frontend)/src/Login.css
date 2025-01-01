@@ -116,4 +116,25 @@
       font-size: 14px;
     }
   }
+  .user-type-selection {
+    text-align: center;
+    padding: 20px;
+  }
   
+  .role-btn {
+    display: inline-block;
+    margin: 10px 5px;
+    padding: 10px 20px;
+    background-color: #245f5f;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  .role-btn:hover {
+    background-color: #35c488;
+    transform: scale(1.05);
+  }

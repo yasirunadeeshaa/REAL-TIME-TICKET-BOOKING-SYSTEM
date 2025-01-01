@@ -18,16 +18,22 @@ public class Customer implements Runnable , Serializable {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     public int customerID;
+
     @Column(name = "customer_name", nullable = false)
     private String customerName;
+
     @Column(name = "customer_email", unique = true, nullable = false)
     private String customerEmail;
+
     @Column(name = "customer_password", nullable = false)
     private String customerPassword;
+
     @Transient // Not persisted in the database
     private final TicketPool ticketPool;
+
     @Transient // Not persisted in the database
     private final Configuration configuration;
+
     private static final Logger logger = LoggerUtil.getLogger(Customer.class.getName());
 
     // Add default constructor for JPA
@@ -42,13 +48,13 @@ public class Customer implements Runnable , Serializable {
         this.configuration = configuration;
     }
 
-    public String getCustomerPassword() {
-        return customerPassword;
-    }
-
-    public void setCustomerPassword(String customerPassword) {
-        this.customerPassword = customerPassword;
-    }
+//    public String getCustomerPassword() {
+//        return customerPassword;
+//    }
+//
+//    public void setCustomerPassword(String customerPassword) {
+//        this.customerPassword = customerPassword;
+//    }
 
     @Override
     public void run() {

@@ -1,6 +1,7 @@
 package com.Ticketing.System.Controller;
 
 import com.Ticketing.System.DataTransferObject.CustomerDTO;
+import com.Ticketing.System.DataTransferObject.LoginRequestDTO;
 import com.Ticketing.System.Service.CustomerService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
@@ -9,7 +10,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 @RestController
-@CrossOrigin(origins = "*")
+@CrossOrigin
 @RequestMapping(value = "api/customer")
 public class CustomerController {
     @Autowired
@@ -19,6 +20,12 @@ public class CustomerController {
     @GetMapping("/getcustomer")
     public List<CustomerDTO> getCustomer() {
         return customerService.getCustomers();
+    }
+
+    // Validate customer login
+    @PostMapping("/validate")
+    public boolean validateCustomer(@RequestBody LoginRequestDTO loginRequest) {
+        return customerService.validateCustomer(loginRequest.getUsername(), loginRequest.getEmail());
     }
 
     //add user
