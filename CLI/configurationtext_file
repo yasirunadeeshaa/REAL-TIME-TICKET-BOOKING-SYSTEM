@@ -1,4 +1,4 @@
-TotalNumberofTickets=100
-TicketReleaseRate=10
+TotalNumberofTickets=50
+TicketReleaseRate=3
 CustomerRetrievalInterval=1000
 MaximumTicketCapacity=500

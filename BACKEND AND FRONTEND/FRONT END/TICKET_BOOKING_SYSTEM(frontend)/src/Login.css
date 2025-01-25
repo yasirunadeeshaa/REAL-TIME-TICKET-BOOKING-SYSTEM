@@ -116,25 +116,42 @@
       font-size: 14px;
     }
   }
+  
   .user-type-selection {
     text-align: center;
     padding: 20px;
+    /* margin-top: 200px;
+    margin-bottom: 200px;
+    background: rgba(255, 255, 255, 0.1); */
+    border-radius: 10px;
+    padding: 30px;
+    width: 100%;
+    max-width: 400px;
+    /* box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);  */
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(1px);
+    
   }
-  
+  .log-container{
+    margin-top: 100px;
+    margin-bottom: 120px;
+  }
   .role-btn {
     display: inline-block;
-    margin: 10px 5px;
+    margin: 20px 5px;
     padding: 10px 20px;
     background-color: #245f5f;
-    color: #fff;
+    color: #faf6f6;
     border: none;
     border-radius: 5px;
     cursor: pointer;
     font-size: 16px;
-    transition: background-color 0.3s ease, transform 0.2s ease;
+    transition: background-color 1s ease, transform 0.2s ease;
+
+   
   }
   
   .role-btn:hover {
-    background-color: #35c488;
+    background-color: #33423c;
     transform: scale(1.05);
   }

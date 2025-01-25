@@ -7,7 +7,7 @@
   margin: auto;
   height: 150px;
   margin-top: 110px;
-  background-color: #0f7886;
+  background-color: #0d717e;
 }  
 
 .footer-section {
@@ -80,8 +80,10 @@
   text-align: center;
   margin-top: 0px;
   font-size: 14px;
-  border-top: 2px solid #111010;
-  padding-top: 15px;
+  border-top: 2px ;
+  padding-top: px;
+  color: #0e0d0d;
+  background-color: #b3c4c5;
 }
 @media (max-width: 768px) {
   .footer-content {
@@ -270,6 +272,7 @@ button:hover {
   border-radius: 5px;
   font-size: 20px;
   
+  
 }
 /* General table styling */
 .table {
@@ -285,6 +288,7 @@ button:hover {
 .table thead {
   background-color: #415972;
   color: white;
+  
 }
 
 .table th {
@@ -301,6 +305,7 @@ button:hover {
 
 .table tbody tr:nth-of-type(even) {
   background-color: #f9f9f9;
+  
 }
 
 .table tbody tr:nth-of-type(odd) {
