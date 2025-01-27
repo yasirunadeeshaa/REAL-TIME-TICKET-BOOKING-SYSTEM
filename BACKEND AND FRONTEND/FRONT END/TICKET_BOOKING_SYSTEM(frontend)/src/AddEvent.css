@@ -1,0 +1,111 @@
+/* Global styles */
+body {
+    font-family: 'Arial', sans-serif;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    
+  }
+  
+  /* Glass card styles */
+  .glass-card {
+    width: 100%;
+    max-width: 600px;
+    padding: 40px 40px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 70px;
+    background: rgba(255, 255, 255, 0.2); /* Semi-transparent background */
+    border-radius: 15px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1); /* Soft shadow */
+    backdrop-filter: blur(10px); /* Glassmorphism effect */
+    -webkit-backdrop-filter: blur(10px); /* Safari compatibility */
+    border: 1px solid rgba(255, 255, 255, 0.3); /* Border for the frosted glass look */
+    color: #fff; /* White text color for contrast */
+    box-sizing: border-box;
+    align-items: center;
+    
+    
+  }
+  
+  /* Heading styles */
+  .text-center {
+    text-align: center;
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #fcfafa;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2); /* Subtle text shadow */
+  }
+  
+  /* Form group */
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .form-group label {
+    display: block;
+    font-size: 1rem;
+    font-weight: 600;
+    margin-bottom: 8px;
+    color: #ffffff;
+  }
+  
+  .form-group input,
+  .form-group textarea {
+    width: 100%;
+    padding: 10px 15px;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.1); /* Semi-transparent input background */
+    color: #fff;
+    font-size: 1rem;
+    outline: none;
+    transition: border-color 0.3s ease;
+  }
+  
+  .form-group input:focus,
+  .form-group textarea:focus {
+    border-color: rgba(255, 255, 255, 0.8);
+  }
+  
+  /* Button styles */
+  .addeventbtn {
+    display: block;
+    width: 100%;
+    padding: 10px 20px;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: #126681;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    text-align: center;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  .addeventbtn:hover {
+    background-color: #1297b8;
+    transform: scale(1.05);
+  }
+  
+  .btn-primary {
+    background-color: #0c5c77;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .glass-card {
+      padding: 15px;
+    }
+  
+    .text-center {
+      font-size: 1.5rem;
+    }
+  
+    .addeventbtn {
+      font-size: 0.9rem;
+    }
+  }
+  

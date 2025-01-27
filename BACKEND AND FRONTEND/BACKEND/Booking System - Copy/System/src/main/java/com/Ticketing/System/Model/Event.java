@@ -23,7 +23,9 @@ public class Event {
     private String eventName;
     @Column(name = "event_description", nullable = false)
     private String eventDescription;
-    @Column(name = "event_time_duration", nullable = false)
+    @Column(name = "event_learn_more",nullable = false)
+    private String eventLearnMore;
+    @Column(name = "event_time_duration",nullable = false)
     private String eventTimeDuration;
 
     @ManyToMany(fetch = FetchType.EAGER)
@@ -35,9 +37,9 @@ public class Event {
 
     private Set<Venue> venues;// = new HashSet<>();
 
-    public Set<Venue> getVenues() {
-        return venues;
-    }
+//    public Set<Venue> getVenues() {
+//        return venues;
+//    }
 
     public void setVenues(Set<Venue> venues) {
         this.venues = venues;

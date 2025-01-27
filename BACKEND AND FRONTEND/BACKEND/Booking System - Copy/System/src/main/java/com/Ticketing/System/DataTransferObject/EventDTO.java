@@ -15,6 +15,7 @@ public class EventDTO {
     private String eventType;
     private String eventName;
     private String eventDescription;
+    private String eventLearnMore;
     private String eventTimeDuration;
 
     private List<Venue> venues;
