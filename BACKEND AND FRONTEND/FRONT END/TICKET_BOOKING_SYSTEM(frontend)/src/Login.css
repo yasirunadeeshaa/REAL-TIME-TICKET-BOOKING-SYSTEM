@@ -27,15 +27,54 @@
   .log-container {
     background-color: #74c5c0;
     padding: 20px 30px;
-    border-radius: 8px;
+    border-radius: 10px;
     box-shadow: 0 5px 6px rgba(0, 0, 0, 0.1);
-    width: 100%;
+    /* width: 100%; */
     max-width: 400px;
     margin:auto;
     margin-top: 80px;
     font-family: 'Times New Roman', Times, serif;
     font-weight: bold;
+    position: relative;
+
   }
+  /*---------------------------------------animation----------------------------------------------------------------*/
+  @property --angle{
+    syntax:"<angle>";
+    initial-value: 0deg;
+    inherits: false;
+  }
+  .log-container::after,.log-container::before{
+    
+    content:'' ;
+    position:absolute ;
+    height: 400px;
+    width: 425px;
+    background-image:conic-gradient(from var(--angle),transparent 0% ,rgb(184, 47, 47), rgb(51, 51, 175),green,rgb(210, 54, 224),rgb(6, 173, 240)); 
+    /*background-image:conic-gradient(from var(--angle),transparent 0% , rgb(22, 212, 171));*/
+    top: 50%;
+    left: 50%;
+    translate : -50% -50%;
+    z-index: -1;
+    padding: 5px;
+    border-radius: 10px;
+    animation: 3s spin linear infinite;
+    
+  }
+  .log-container::before{
+
+    filter: blur(2.5rem);
+    opacity: 0.5;
+  }
+  @keyframes spin {
+    from{
+      --angle :0deg;
+    }
+    to{
+      --angle :360deg;
+    }
+  }
+  /*-------------------------------------------------------------------------------------------------------------------*/
   
   h2 {
     text-align: center;

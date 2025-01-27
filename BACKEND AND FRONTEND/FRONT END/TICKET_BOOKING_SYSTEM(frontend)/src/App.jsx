@@ -3,6 +3,7 @@ import './App.css'
 import './Login.css'
 import './Home.css'
 import './ControlPanelComponent.css';
+import './AddEvent.css'
 import FooterComponent from './components/FooterComponent'
 //import FooterComponent from './components/FooterComponent'
 import HeaderComponent from './components/HeaderComponent'
@@ -14,6 +15,7 @@ import ControlPanalComponent from './components/ControlPanalComponent'
 import VendorListComponent from './components/VendorListComponent';
 import EventListComponent from './components/EventListComponent';
 import VenueListComponent from './components/VenueListComponent';
+import AddEventComponent from './components/AddEventComponent';
 
 function App() {
   
@@ -49,6 +51,9 @@ function App() {
 
             //http://localhost:4000/controlpanel
             <Route path='/venues' element={<VenueListComponent/>}></Route>
+
+            //http://localhost:4000/addevent
+            <Route path='/addevent' element={<AddEventComponent/>}></Route>
 
 
         

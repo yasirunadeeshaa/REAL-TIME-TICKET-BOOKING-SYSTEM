@@ -49,60 +49,6 @@
 //         <button class="card-btn">Watch Trailer</button>
 //     </a>
 // </div> */}
-
-//         <div class='card'>
-//             <img class='card-image' src='./abcd.jpg'></img>
-//             <h2 class='card-title'>MOVIE</h2>
-//             <h3 class='card-name'>Harry potter</h3>
-//             <p class='card-dis'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Non consectetur ratione sed quod officia delectus maxime. Quae dignissimos, nobis ipsum a deleniti ducimus enim, adipisci obcaecati maiores dolor recusandae veniam?</p>
-//             <a href="https://www.harrypotter.com/">
-//             <button class="card-btn" >Learn More</button></a>
-//         </div>
-
-//         <div class='card'>
-//             <img class='card-image' src='./abcd.jpg'></img>
-//             <h2 class='card-title'>CONCERT</h2>
-//             <p class='card-dis'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Non consectetur ratione sed quod officia delectus maxime. Quae dignissimos, nobis ipsum a deleniti ducimus enim, adipisci obcaecati maiores dolor recusandae veniam?</p>
-//             <button class="card-btn" onClick="navigate(https://www.imdb.com/title/tt0478970/)">Learn More</button>
-//         </div>
-//         <div class='card'>
-//             <img class='card-image' src='./abcd.jpg'></img>
-//             <h2 class='card-title'>MOVIE</h2>
-//             <p class='card-dis'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Non consectetur ratione sed quod officia delectus maxime. Quae dignissimos, nobis ipsum a deleniti ducimus enim, adipisci obcaecati maiores dolor recusandae veniam?</p>
-//             <button class="card-btn" onClick={URL="https://www.imdb.com/title/tt0478970/"}>Learn More</button>
-//         </div>
-
-//         <div class='card'>
-//             <img class='card-image' src='./abcd.jpg'></img>
-//             <h2 class='card-title'>MUSICAL SHOW</h2>
-//             <p class='card-dis'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Non consectetur ratione sed quod officia delectus maxime. Quae dignissimos, nobis ipsum a deleniti ducimus enim, adipisci obcaecati maiores dolor recusandae veniam?</p>
-//             <button class="card-btn" onClick={URL="https://www.imdb.com/title/tt0478970/"}>Learn More</button>
-//         </div>
-//         <div class='card'>
-//             <img class='card-image' src='./abcd.jpg'></img>
-//             <h2 class='card-title'>MOVIE</h2>
-//             <p class='card-dis'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Non consectetur ratione sed quod officia delectus maxime. Quae dignissimos, nobis ipsum a deleniti ducimus enim, adipisci obcaecati maiores dolor recusandae veniam?</p>
-//             <button class="card-btn" onClick={URL="https://www.imdb.com/title/tt0478970/"}>Learn More</button>
-//         </div>
-//         <div class='card'>
-//             <img class='card-image' src='./abcd.jpg'></img>
-//             <h2 class='card-title'>MOVIE</h2>
-//             <p class='card-dis'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Non consectetur ratione sed quod officia delectus maxime. Quae dignissimos, nobis ipsum a deleniti ducimus enim, adipisci obcaecati maiores dolor recusandae veniam?</p>
-//             <button class="card-btn" onClick={URL="https://www.imdb.com/title/tt0478970/"}>Learn More</button>
-//         </div>
-//         <div class='card'>
-//             <img class='card-image' src='./abcd.jpg'></img>
-//             <h2 class='card-title'>MOVIE</h2>
-//             <p class='card-dis'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Non consectetur ratione sed quod officia delectus maxime. Quae dignissimos, nobis ipsum a deleniti ducimus enim, adipisci obcaecati maiores dolor recusandae veniam?</p>
-//             <button class="card-btn" onClick={URL="https://www.imdb.com/title/tt0478970/"}>Learn More</button>
-//         </div>
-//         <div class='card'>
-//             <img class='card-image' src='./abcd.jpg'></img>
-//             <h2 class='card-title'>MOVIE</h2>
-//             <p class='card-dis'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Non consectetur ratione sed quod officia delectus maxime. Quae dignissimos, nobis ipsum a deleniti ducimus enim, adipisci obcaecati maiores dolor recusandae veniam?</p>
-//             <button class="card-btn" onClick={URL="https://www.imdb.com/title/tt0478970/"}>Learn More</button>
-//         </div>
-        
         
 //         </section>
           
@@ -208,8 +154,15 @@ import { useNavigate } from 'react-router-dom';
 
 const HomeComponent = () => {
   const [events, setEvents] = useState([]);
+  const [isLoggedIn, setIsLoggedIn] = useState(false);
   const navigate = useNavigate();
 
+  // useEffect(() => {
+  //       if (!isLoggedIn) {
+  //         setShowAlert(true);
+  //       }
+  //     }, [isLoggedIn]);
+    
   // Fetch events from backend
   useEffect(() => {
     const fetchEvents = async () => {
@@ -229,6 +182,29 @@ const HomeComponent = () => {
   }, []);
 
   return (
+    <>
+       <div>
+         <h2 className="welcomeheading">
+           Real-Time Ticket Booking Application: Seamless & Instant Reservations
+         </h2>
+       </div>
+{/* 
+       {showAlert && (
+        <div
+          style={{
+            padding: '10px',
+            backgroundColor: '#ffcccc',
+            color: '#d8000c',
+            border: '1px solid #d8000c',
+            marginBottom: '15px',
+          }}
+        >
+          Notice: If you are not signed in, please click the 'Login' button to
+          sign in or create an account to access all features of this
+          application.
+        </div>
+      )} */}
+
     <section className="card-container">
       {events.length > 0 ? (
         events.map((event) => (
@@ -249,6 +225,7 @@ const HomeComponent = () => {
         <p>Loading events...</p>
       )}
     </section>
+    </>
   );
 };
 

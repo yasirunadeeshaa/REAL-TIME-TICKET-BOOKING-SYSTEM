@@ -14,3 +14,7 @@ export const listvenues =()=>axios.get(REST_API_BASEURL3);
 const REST_API_BASEURL4 ='http://localhost:8090/api/vendor/getvendor'
 
 export const listvendors =()=>axios.get(REST_API_BASEURL4);
+
+// const REST_API_BASEURL5 ='http://localhost:8090/api/event/addevent'
+
+// export const addevent =()=>axios.post(REST_API_BASEURL5);
